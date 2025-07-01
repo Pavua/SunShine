@@ -1,0 +1,21 @@
+{
+  "name": "sunshine",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "vite build --debug",
+    "build-clean": "vite build --debug --emptyOutDir",
+    "dev": "vite build --watch",
+    "serve": "serve ./tests/fixtures/http --no-port-switching"
+  },
+  "dependencies": {
+    "@lizardbyte/shared-web": "2025.626.181239",
+    "vue": "3.5.17",
+    "vue-i18n": "11.1.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "serve": "14.2.4",
+    "vite": "5.2.10",
+    "vite-plugin-ejs": "1.7.0"
+  }
+}

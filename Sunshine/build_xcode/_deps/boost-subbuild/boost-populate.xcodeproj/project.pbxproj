@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		08E655ED2BA1F7B386491006 /* boost-populate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0785CB44C61E4C28B103ED73 /* Build configuration list for PBXAggregateTarget "boost-populate" */;
+			buildPhases = (
+				0DD3B6A6E7950EDA61A6D690 /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-mkdir */,
+				0E3C3C3FC47A29CB244CA2AA /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-download */,
+				C6DF2D2054546AF0EA7E77A3 /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-update */,
+				C43BDB96C68B01C8EB8DE4DD /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-patch */,
+				E5BBC20EA89EF2BB4BE45244 /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-configure */,
+				6CB5AFE3106615BA14AA89E3 /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-build */,
+				F94DDEDC560239D2D39EA274 /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-install */,
+				2549952927DFAAF0329F7634 /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-test */,
+				933E047A19FB33CB8E7812C5 /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-complete */,
+				C724F8AB247C385A3FC82AE3 /* Generate CMakeFiles/boost-populate */,
+			);
+			dependencies = (
+				ABCE19B5885E46DD8C96E5BB /* PBXTargetDependency */,
+			);
+			name = "boost-populate";
+			productName = "boost-populate";
+		};
+		7F886F41CECE8BF8B06D571F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 20A8DDE167864103B3C5F784 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3685C3D4837B198EDEFB4E69 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				5176A9CD517C4B9C9AA8A61E /* PBXTargetDependency */,
+				6E01F02026564726A086107D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C28B20D1DC84BE0FE41F9D04 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D2A95AEB52FD4EA5B88FBB10 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				9E4B2A993821F92BAC143916 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		1B85E956AC8C455CB3FD64EA /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		471A1903DAE04F0A9A99DD32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61E7C50202F047508261266E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08E655ED2BA1F7B386491006;
+			remoteInfo = "boost-populate";
+		};
+		5428346293D6469CA5458722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61E7C50202F047508261266E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28B20D1DC84BE0FE41F9D04;
+			remoteInfo = ZERO_CHECK;
+		};
+		7772601D4EF24B11B1B1BC77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61E7C50202F047508261266E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28B20D1DC84BE0FE41F9D04;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A298452638DF48B4BD8B8A70 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FF81432EDC124351A760EBC2 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		216EDA30C8F74A48B7C23F06 = {
+			isa = PBXGroup;
+			children = (
+				D3851CC6169945CAADD95EB1 /* ExternalProjectTargets */,
+				D40AFBBD8D454522A0DA744E /* ALL_BUILD */,
+				32B9EFACB8B742E5B4F66957 /* Products */,
+				3D9DEFC5F9FB45C7AD3FEE8C /* Frameworks */,
+				D6AC86BDDB6A42FD9004B8E4 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		29D6477041ED40F09DAD0E11 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		32B9EFACB8B742E5B4F66957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D9DEFC5F9FB45C7AD3FEE8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83313901E24F48448C3CFA04 /* boost-populate */ = {
+			isa = PBXGroup;
+			children = (
+				FF136E13626F4D25B588F79B /* boost-populate */,
+			);
+			name = "boost-populate";
+			sourceTree = "<group>";
+		};
+		CB2385273CA94988A355CF4B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D3851CC6169945CAADD95EB1 /* ExternalProjectTargets */ = {
+			isa = PBXGroup;
+			children = (
+				83313901E24F48448C3CFA04 /* boost-populate */,
+			);
+			name = ExternalProjectTargets;
+			sourceTree = "<group>";
+		};
+		D40AFBBD8D454522A0DA744E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				29D6477041ED40F09DAD0E11 /* CMake Rules */,
+				A298452638DF48B4BD8B8A70 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D6AC86BDDB6A42FD9004B8E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FF136E13626F4D25B588F79B /* boost-populate */ = {
+			isa = PBXGroup;
+			children = (
+				CB2385273CA94988A355CF4B /* CMake Rules */,
+				FF81432EDC124351A760EBC2 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/CMakeLists.txt */,
+			);
+			name = "boost-populate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		61E7C50202F047508261266E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1640;
+			};
+			buildConfigurationList = BCC7D8CC6C834E6894AA6CB2 /* Build configuration list for PBXProject "boost-populate" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				1B85E956AC8C455CB3FD64EA /* Debug */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 216EDA30C8F74A48B7C23F06;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				7F886F41CECE8BF8B06D571F /* ALL_BUILD */,
+				08E655ED2BA1F7B386491006 /* boost-populate */,
+				C28B20D1DC84BE0FE41F9D04 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DD3B6A6E7950EDA61A6D690 /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-mkdir */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-mkdir";
+			outputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-mkdir"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild
+  /opt/homebrew/bin/cmake -Dcfgdir=/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/tmp/boost-populate-mkdirs.cmake
+  /opt/homebrew/bin/cmake -E touch /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/boost-populate-mkdir
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		0E3C3C3FC47A29CB244CA2AA /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-mkdir","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/boost-populate-urlinfo.txt","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/download-boost-populate.cmake"			);
+			name = "Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-download";
+			outputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-download"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pablito/SunShine/Sunshine/build_xcode/_deps
+  /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/download-boost-populate.cmake
+  /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/verify-boost-populate.cmake
+  /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/extract-boost-populate.cmake
+  /opt/homebrew/bin/cmake -E touch /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/boost-populate-download
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		2549952927DFAAF0329F7634 /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-test */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-install"			);
+			name = "Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-test";
+			outputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-test"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/boost-populate-test
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3685C3D4837B198EDEFB4E69 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6CB5AFE3106615BA14AA89E3 /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-configure"			);
+			name = "Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-build";
+			outputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-build"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/boost-populate-build
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		933E047A19FB33CB8E7812C5 /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-complete */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-build","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-configure","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-download","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-install","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-mkdir","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-patch","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-test","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-update"			);
+			name = "Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-complete";
+			outputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-complete"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild
+  /opt/homebrew/bin/cmake -E make_directory /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /opt/homebrew/bin/cmake -E touch /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/boost-populate-complete
+  /opt/homebrew/bin/cmake -E touch /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/boost-populate-done
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		96F4704719360BCDD97DC6A3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9E4B2A993821F92BAC143916 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild
+  make -f /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		C43BDB96C68B01C8EB8DE4DD /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-patch */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-update","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/boost-populate-patch-info.txt"			);
+			name = "Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-patch";
+			outputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-patch"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/boost-populate-patch
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		C6DF2D2054546AF0EA7E77A3 /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-update */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-download","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/boost-populate-update-info.txt"			);
+			name = "Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-update";
+			outputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-update"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/boost-populate-update
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		C724F8AB247C385A3FC82AE3 /* Generate CMakeFiles/boost-populate */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-complete"			);
+			name = "Generate CMakeFiles/boost-populate";
+			outputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/CMakeFiles/boost-populate"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		E5BBC20EA89EF2BB4BE45244 /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-configure */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-patch","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/tmp/boost-populate-cfgcmd.txt"			);
+			name = "Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-configure";
+			outputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-configure"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/boost-populate-configure
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		F94DDEDC560239D2D39EA274 /* Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-build"			);
+			name = "Generate boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-install";
+			outputPaths = (
+"/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/boost-populate-install"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/boost-populate-prefix/src/boost-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/boost-populate-install
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5176A9CD517C4B9C9AA8A61E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08E655ED2BA1F7B386491006 /* boost-populate */;
+			targetProxy = 471A1903DAE04F0A9A99DD32 /* PBXContainerItemProxy */;
+		};
+		6E01F02026564726A086107D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C28B20D1DC84BE0FE41F9D04 /* ZERO_CHECK */;
+			targetProxy = 5428346293D6469CA5458722 /* PBXContainerItemProxy */;
+		};
+		ABCE19B5885E46DD8C96E5BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C28B20D1DC84BE0FE41F9D04 /* ZERO_CHECK */;
+			targetProxy = 7772601D4EF24B11B1B1BC77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		500CD25E22CB4D2CB58F17FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "boost-populate";
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7667C972A81B4E11BDE5131A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = "/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-subbuild/build";
+			};
+			name = Debug;
+		};
+		D304682CBF8A48958372DCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F357612EE8A34F73BB7D27AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0785CB44C61E4C28B103ED73 /* Build configuration list for PBXAggregateTarget "boost-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500CD25E22CB4D2CB58F17FC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		20A8DDE167864103B3C5F784 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D304682CBF8A48958372DCB7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BCC7D8CC6C834E6894AA6CB2 /* Build configuration list for PBXProject "boost-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7667C972A81B4E11BDE5131A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2A95AEB52FD4EA5B88FBB10 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F357612EE8A34F73BB7D27AB /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61E7C50202F047508261266E /* Project object */;
+}
