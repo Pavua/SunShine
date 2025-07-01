@@ -7,7 +7,7 @@
 #pragma once
 
 #define PROJECT_NAME "Sunshine"
-#define PROJECT_VER  "0.0.0.dcce2fa.dirty"
+#define PROJECT_VER  "0.0.0.f5a70f0e.dirty"
 #define PROJECT_VER_MAJOR "0"
 #define PROJECT_VER_MINOR "0"
 #define PROJECT_VER_PATCH "0"

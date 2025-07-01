@@ -131,25 +131,3 @@ list(APPEND SUNSHINE_DEFINITIONS SUNSHINE_PUBLISHER_WEBSITE="${SUNSHINE_PUBLISHE
 list(APPEND SUNSHINE_DEFINITIONS SUNSHINE_PUBLISHER_ISSUE_URL="${SUNSHINE_PUBLISHER_ISSUE_URL}")
 
 include_directories(BEFORE "${CMAKE_SOURCE_DIR}")
-
-target_include_directories(sunshine SYSTEM
-        BEFORE
-        "${CMAKE_SOURCE_DIR}/third-party"
-        "${CMAKE_SOURCE_DIR}/third-party/moonlight-common-c/enet/include"
-        "${CMAKE_SOURCE_DIR}/third-party/nanors"
-        "${CMAKE_SOURCE_DIR}/third-party/nanors/deps/obl"
-        ${FFMPEG_INCLUDE_DIRS}
-        ${Boost_INCLUDE_DIRS}  # has to be the last, or we get runtime error on macOS ffmpeg encoder
-)
-
-list(APPEND SUNSHINE_EXTERNAL_LIBRARIES
-        ${MINIUPNP_LIBRARIES}
-        ${CMAKE_THREAD_LIBS_INIT}
-        enet
-        libdisplaydevice::display_device
-        nlohmann_json::nlohmann_json
-        opus
-        ${FFMPEG_LIBRARIES}
-        ${Boost_LIBRARIES}
-        ${OPENSSL_LIBRARIES}
-        ${PLATFORM_LIBRARIES})

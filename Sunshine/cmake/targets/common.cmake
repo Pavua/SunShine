@@ -19,6 +19,26 @@ elseif(UNIX)
     endif()
 endif()
 
+target_include_directories(sunshine PUBLIC
+        "${CMAKE_SOURCE_DIR}/third-party"
+        "${CMAKE_SOURCE_DIR}/third-party/moonlight-common-c/enet/include"
+        "${CMAKE_SOURCE_DIR}/third-party/nanors"
+        "${CMAKE_SOURCE_DIR}/third-party/nanors/deps/obl"
+        ${FFMPEG_INCLUDE_DIRS}
+)
+
+list(APPEND SUNSHINE_EXTERNAL_LIBRARIES
+        ${MINIUPNP_LIBRARIES}
+        ${CMAKE_THREAD_LIBS_INIT}
+        enet
+        libdisplaydevice::display_device
+        nlohmann_json::nlohmann_json
+        opus
+        ${FFMPEG_LIBRARIES}
+        ${Boost_LIBRARIES}
+        ${OPENSSL_LIBRARIES}
+        ${PLATFORM_LIBRARIES})
+
 # todo - is this necessary? ... for anything except linux?
 if(NOT DEFINED CMAKE_CUDA_STANDARD)
     set(CMAKE_CUDA_STANDARD 17)
