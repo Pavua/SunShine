@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		05DA54E260267FCA40EE5EFF /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 1F940B3957B044F4BB371D41 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = AB1216ADA51A43FC81C26E7E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				DEA06D407CF37B9445BD576F /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,37 +20,37 @@
 		};
 		5CF28BDCD049370E1A3651AD /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 649BE9D06AF7460BBBDD555D /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = DBF815E550354A569D566152 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				B85BA652A49F46F597A1246E /* PBXTargetDependency */,
+				BDE0DA77CB6246DB96309DBD /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		D393ED0C9FBE8A975100E39B /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 2DE26294CBA34C4DB760342D /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = A38C232C471A49C0BD196587 /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				6CB6E882499B4B509925C3A8 /* PBXTargetDependency */,
+				DAA70FC68CBA4F9BBE838616 /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
 		};
 		E64DF75D644A9717976D8387 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = F46D3C5B0D324CF4BE8283CD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 65B8FFD91ED645058015C153 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				F24BE29A3302856763D5B22F /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				CC66092AC4DC44539D3641A8 /* PBXTargetDependency */,
-				3D02670003AB485F89EA1E81 /* PBXTargetDependency */,
+				5896A969334A447B94984D60 /* PBXTargetDependency */,
+				DA829909730D4D85857F3C28 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -58,108 +58,108 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		20A87F9097954FA08A9A7121 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/cmdline.cpp */ = {isa = PBXBuildFile; fileRef = BD29539E27344661814A4A98 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/cmdline.cpp */; };
-		26EBC60C2BB54BDEB98F47E2 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/parsers.cpp */ = {isa = PBXBuildFile; fileRef = F30E1E1224E645419408A9CE /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/parsers.cpp */; };
-		49E785697E904573BE5297FF /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/convert.cpp */ = {isa = PBXBuildFile; fileRef = 04213E1410B040CD800CBE94 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/convert.cpp */; };
-		623F439CA86547E282640933 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/value_semantic.cpp */ = {isa = PBXBuildFile; fileRef = A81604A187C047BB818BEEE4 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/value_semantic.cpp */; };
-		73FD4B95D39747788EF065F8 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/positional_options.cpp */ = {isa = PBXBuildFile; fileRef = 9206B6D6CDCF41AF992C602A /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/positional_options.cpp */; };
-		8159F44F4A19482FA12B8883 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/options_description.cpp */ = {isa = PBXBuildFile; fileRef = A767845B07254D7CB736D9FD /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/options_description.cpp */; };
-		88FDF5250437401FAE19DA95 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/utf8_codecvt_facet.cpp */ = {isa = PBXBuildFile; fileRef = EE89428ADE634D8389FC1B10 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/utf8_codecvt_facet.cpp */; };
-		ABF57F91C2C54EE09307AB7E /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/winmain.cpp */ = {isa = PBXBuildFile; fileRef = E3C9353D32A5486F8C769598 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/winmain.cpp */; };
-		DB71F103E2244D0280C00CC2 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 478E00D358634D7C9C041594 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/CMakeLists.txt */; };
-		E0E146E2D3E94C0B815C728A /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/variables_map.cpp */ = {isa = PBXBuildFile; fileRef = 08EC592B6274429D8BB47B7A /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/variables_map.cpp */; };
-		ECCD7B8CE26F46128DC243AB /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/split.cpp */ = {isa = PBXBuildFile; fileRef = 7223EE9B9989485F9C1C60CE /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/split.cpp */; };
-		FEE9177966C2451B994E5C8F /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/config_file.cpp */ = {isa = PBXBuildFile; fileRef = 2B38CD0020574B10B210046C /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/config_file.cpp */; };
+		17B430F6009C4E03BDCFA1D0 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/winmain.cpp */ = {isa = PBXBuildFile; fileRef = 9DA6651959B3429C9AE3A540 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/winmain.cpp */; };
+		2184C1336ABF475AB57FC8FB /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/utf8_codecvt_facet.cpp */ = {isa = PBXBuildFile; fileRef = 55F331ED0052416F8BE11B5D /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/utf8_codecvt_facet.cpp */; };
+		5D4D6981BFB049BDAD8599A2 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/cmdline.cpp */ = {isa = PBXBuildFile; fileRef = ECAE335FD65944D7AA4B3F15 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/cmdline.cpp */; };
+		68454431A1354381B82D4F89 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/split.cpp */ = {isa = PBXBuildFile; fileRef = E8E0470077264B18A9A3501B /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/split.cpp */; };
+		74AA09B047884DA1B0079220 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/parsers.cpp */ = {isa = PBXBuildFile; fileRef = 46C0E3C31699441495870003 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/parsers.cpp */; };
+		83E7B1ED717849758ED1FDE3 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/variables_map.cpp */ = {isa = PBXBuildFile; fileRef = F3FF1954B58348B49BF6B879 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/variables_map.cpp */; };
+		8EE7B50AD5C34389926B6886 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/positional_options.cpp */ = {isa = PBXBuildFile; fileRef = 246F3237A2724D98AEDCE821 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/positional_options.cpp */; };
+		C0A496DC6B2545B4B7682588 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/value_semantic.cpp */ = {isa = PBXBuildFile; fileRef = 302EE02D36554D8C9B3F1E57 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/value_semantic.cpp */; };
+		C31BF0AFB10F4056956DB249 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/config_file.cpp */ = {isa = PBXBuildFile; fileRef = 481C69DB7EE84F5695EF1B3D /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/config_file.cpp */; };
+		DFAA11BC4F21490FA87257FD /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0BBB139DA65A4586AB63407A /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/CMakeLists.txt */; };
+		EC71AAEB427149939841C2D7 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/convert.cpp */ = {isa = PBXBuildFile; fileRef = 814C3276223F4B6B8DAF1B11 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/convert.cpp */; };
+		F36CCD8AB89F42F389FEDC53 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/options_description.cpp */ = {isa = PBXBuildFile; fileRef = 1B7D23A48DF94FD0B7BE3435 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/options_description.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		1D959F56B65D49368FE59B45 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		20BFED5C80EF46029D1F99ED /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		CB28398636984D5EBF784BAB /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		F80B329AC8B14423BA660F7D /* Debug */ = {
+		53F4507448AA4CEDA39E9ED7 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		B0553B5E98C34213980697B0 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		E4062C9A92344EECA7F277B7 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E45B593BD29E4E47AA92A597 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		00A9F896E0FC4299AAAF58A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46A820B1815E4C12A9B2A205 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 05DA54E260267FCA40EE5EFF;
-			remoteInfo = ZERO_CHECK;
-		};
-		1C72CEED835E4991BBF115F4 /* PBXContainerItemProxy */ = {
+		471E9C944DB84E87B1DD2707 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46A820B1815E4C12A9B2A205 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E64DF75D644A9717976D8387;
 			remoteInfo = ALL_BUILD;
 		};
-		2198E45C7B384382902BB662 /* PBXContainerItemProxy */ = {
+		BAE0910E2729445DA48E98D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46A820B1815E4C12A9B2A205 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 05DA54E260267FCA40EE5EFF;
 			remoteInfo = ZERO_CHECK;
 		};
-		78C1CC31F2B1436CB823E988 /* PBXContainerItemProxy */ = {
+		D92FE13C43D4457B90CBFC11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46A820B1815E4C12A9B2A205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DA54E260267FCA40EE5EFF;
+			remoteInfo = ZERO_CHECK;
+		};
+		DC6FD2854A2B421FA240F165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46A820B1815E4C12A9B2A205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E64DF75D644A9717976D8387;
+			remoteInfo = ALL_BUILD;
+		};
+		DD799BAEB88A409E815E582D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46A820B1815E4C12A9B2A205 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 296FF5725DA670AC9F053CCE;
 			remoteInfo = boost_program_options;
 		};
-		8F93F0AC447847CCB38B52CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46A820B1815E4C12A9B2A205 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E64DF75D644A9717976D8387;
-			remoteInfo = ALL_BUILD;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04213E1410B040CD800CBE94 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/convert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = convert.cpp; path = src/convert.cpp; sourceTree = SOURCE_ROOT; };
-		08EC592B6274429D8BB47B7A /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/variables_map.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = variables_map.cpp; path = src/variables_map.cpp; sourceTree = SOURCE_ROOT; };
-		2B38CD0020574B10B210046C /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/config_file.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = config_file.cpp; path = src/config_file.cpp; sourceTree = SOURCE_ROOT; };
-		478E00D358634D7C9C041594 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		59C0837EB6F74EFDBC277D05 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		7223EE9B9989485F9C1C60CE /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/split.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = split.cpp; path = src/split.cpp; sourceTree = SOURCE_ROOT; };
-		9206B6D6CDCF41AF992C602A /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/positional_options.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = positional_options.cpp; path = src/positional_options.cpp; sourceTree = SOURCE_ROOT; };
-		A767845B07254D7CB736D9FD /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/options_description.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = options_description.cpp; path = src/options_description.cpp; sourceTree = SOURCE_ROOT; };
-		A81604A187C047BB818BEEE4 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/value_semantic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = value_semantic.cpp; path = src/value_semantic.cpp; sourceTree = SOURCE_ROOT; };
-		BD29539E27344661814A4A98 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/cmdline.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cmdline.cpp; path = src/cmdline.cpp; sourceTree = SOURCE_ROOT; };
-		CA5B7476ED2641A7B88EFAA6 /* boost_program_options */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libboost_program_options.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3C9353D32A5486F8C769598 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/winmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = winmain.cpp; path = src/winmain.cpp; sourceTree = SOURCE_ROOT; };
-		EE89428ADE634D8389FC1B10 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/utf8_codecvt_facet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utf8_codecvt_facet.cpp; path = src/utf8_codecvt_facet.cpp; sourceTree = SOURCE_ROOT; };
-		F30E1E1224E645419408A9CE /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/parsers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parsers.cpp; path = src/parsers.cpp; sourceTree = SOURCE_ROOT; };
+		0BBB139DA65A4586AB63407A /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		15CF486DF02244A4B05A3BF0 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1B7D23A48DF94FD0B7BE3435 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/options_description.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = options_description.cpp; path = src/options_description.cpp; sourceTree = SOURCE_ROOT; };
+		21277DEDA8E64BE1810289B2 /* boost_program_options */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libboost_program_options.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		246F3237A2724D98AEDCE821 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/positional_options.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = positional_options.cpp; path = src/positional_options.cpp; sourceTree = SOURCE_ROOT; };
+		302EE02D36554D8C9B3F1E57 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/value_semantic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = value_semantic.cpp; path = src/value_semantic.cpp; sourceTree = SOURCE_ROOT; };
+		46C0E3C31699441495870003 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/parsers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parsers.cpp; path = src/parsers.cpp; sourceTree = SOURCE_ROOT; };
+		481C69DB7EE84F5695EF1B3D /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/config_file.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = config_file.cpp; path = src/config_file.cpp; sourceTree = SOURCE_ROOT; };
+		55F331ED0052416F8BE11B5D /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/utf8_codecvt_facet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utf8_codecvt_facet.cpp; path = src/utf8_codecvt_facet.cpp; sourceTree = SOURCE_ROOT; };
+		814C3276223F4B6B8DAF1B11 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/convert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = convert.cpp; path = src/convert.cpp; sourceTree = SOURCE_ROOT; };
+		9DA6651959B3429C9AE3A540 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/winmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = winmain.cpp; path = src/winmain.cpp; sourceTree = SOURCE_ROOT; };
+		E8E0470077264B18A9A3501B /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/split.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = split.cpp; path = src/split.cpp; sourceTree = SOURCE_ROOT; };
+		ECAE335FD65944D7AA4B3F15 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/cmdline.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cmdline.cpp; path = src/cmdline.cpp; sourceTree = SOURCE_ROOT; };
+		F3FF1954B58348B49BF6B879 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/variables_map.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = variables_map.cpp; path = src/variables_map.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6D957F11EA934355BE9F1EBC /* Frameworks */ = {
+		31B5FB1921C74834B03433AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -169,80 +169,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		044DD92D07A5440F928D4A5F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CA5B7476ED2641A7B88EFAA6 /* boost_program_options */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		150869C17E9E4165ABADD0D1 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				20A763AC92F54D4C88337039 /* CMake Rules */,
-				59C0837EB6F74EFDBC277D05 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		20A763AC92F54D4C88337039 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		4DB7B7C709E54AA1B1CEFFC2 = {
-			isa = PBXGroup;
-			children = (
-				EFE67BDC01564CF99F537E91 /* boost_program_options */,
-				150869C17E9E4165ABADD0D1 /* ALL_BUILD */,
-				044DD92D07A5440F928D4A5F /* Products */,
-				A2FF1492F8764EC48A3BA5A4 /* Frameworks */,
-				4E502205B966408184157F66 /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		4E502205B966408184157F66 /* Resources */ = {
+		194EAC4FCA36415884C82CCB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		5CC9C149AD144123BEB34AA9 /* Source Files */ = {
+		4EA994081C324D8ABC77CFF2 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				BD29539E27344661814A4A98 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/cmdline.cpp */,
-				2B38CD0020574B10B210046C /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/config_file.cpp */,
-				04213E1410B040CD800CBE94 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/convert.cpp */,
-				A767845B07254D7CB736D9FD /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/options_description.cpp */,
-				F30E1E1224E645419408A9CE /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/parsers.cpp */,
-				9206B6D6CDCF41AF992C602A /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/positional_options.cpp */,
-				7223EE9B9989485F9C1C60CE /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/split.cpp */,
-				EE89428ADE634D8389FC1B10 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/utf8_codecvt_facet.cpp */,
-				A81604A187C047BB818BEEE4 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/value_semantic.cpp */,
-				08EC592B6274429D8BB47B7A /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/variables_map.cpp */,
-				E3C9353D32A5486F8C769598 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/winmain.cpp */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		70CC880E9C374E8DAEC70824 = {
+			isa = PBXGroup;
+			children = (
+				BC960083C1984A148ADFEC7A /* boost_program_options */,
+				DAEAFD46AB084931BEA062E1 /* ALL_BUILD */,
+				95F61A21E09E40D0BCA0A1E6 /* Products */,
+				E2AEB9B8EEB444A395948812 /* Frameworks */,
+				194EAC4FCA36415884C82CCB /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		95F61A21E09E40D0BCA0A1E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21277DEDA8E64BE1810289B2 /* boost_program_options */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA619E9F351443388015958E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECAE335FD65944D7AA4B3F15 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/cmdline.cpp */,
+				481C69DB7EE84F5695EF1B3D /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/config_file.cpp */,
+				814C3276223F4B6B8DAF1B11 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/convert.cpp */,
+				1B7D23A48DF94FD0B7BE3435 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/options_description.cpp */,
+				46C0E3C31699441495870003 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/parsers.cpp */,
+				246F3237A2724D98AEDCE821 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/positional_options.cpp */,
+				E8E0470077264B18A9A3501B /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/split.cpp */,
+				55F331ED0052416F8BE11B5D /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/utf8_codecvt_facet.cpp */,
+				302EE02D36554D8C9B3F1E57 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/value_semantic.cpp */,
+				F3FF1954B58348B49BF6B879 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/variables_map.cpp */,
+				9DA6651959B3429C9AE3A540 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/winmain.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		A2FF1492F8764EC48A3BA5A4 /* Frameworks */ = {
+		BC960083C1984A148ADFEC7A /* boost_program_options */ = {
+			isa = PBXGroup;
+			children = (
+				BA619E9F351443388015958E /* Source Files */,
+				0BBB139DA65A4586AB63407A /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/CMakeLists.txt */,
+			);
+			name = boost_program_options;
+			sourceTree = "<group>";
+		};
+		DAEAFD46AB084931BEA062E1 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4EA994081C324D8ABC77CFF2 /* CMake Rules */,
+				15CF486DF02244A4B05A3BF0 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E2AEB9B8EEB444A395948812 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EFE67BDC01564CF99F537E91 /* boost_program_options */ = {
-			isa = PBXGroup;
-			children = (
-				5CC9C149AD144123BEB34AA9 /* Source Files */,
-				478E00D358634D7C9C041594 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/CMakeLists.txt */,
-			);
-			name = boost_program_options;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,19 +250,19 @@
 /* Begin PBXNativeTarget section */
 		296FF5725DA670AC9F053CCE /* boost_program_options */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F96DAF9E512440349A369907 /* Build configuration list for PBXNativeTarget "boost_program_options" */;
+			buildConfigurationList = 9957FCB1A3434CE083F9CEBE /* Build configuration list for PBXNativeTarget "boost_program_options" */;
 			buildPhases = (
-				EE50D48F1047418AA0605CC9 /* Sources */,
-				6D957F11EA934355BE9F1EBC /* Frameworks */,
+				B853F04124A547D688F0C9CD /* Sources */,
+				31B5FB1921C74834B03433AC /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9289D3B9F54C4EE5B51EA960 /* PBXTargetDependency */,
+				74BD22D9382B4452A83A881C /* PBXTargetDependency */,
 			);
 			name = boost_program_options;
 			productName = boost_program_options;
-			productReference = CA5B7476ED2641A7B88EFAA6 /* boost_program_options */;
+			productReference = 21277DEDA8E64BE1810289B2 /* boost_program_options */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -274,18 +274,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1640;
 			};
-			buildConfigurationList = 26E6B3CF97B7420180AEEE38 /* Build configuration list for PBXProject "boost_program_options" */;
+			buildConfigurationList = AC15CE1A4A54482A811CA69F /* Build configuration list for PBXProject "boost_program_options" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				F80B329AC8B14423BA660F7D /* Debug */,
-				20BFED5C80EF46029D1F99ED /* Release */,
-				CB28398636984D5EBF784BAB /* MinSizeRel */,
-				1D959F56B65D49368FE59B45 /* RelWithDebInfo */,
+				53F4507448AA4CEDA39E9ED7 /* Debug */,
+				B0553B5E98C34213980697B0 /* Release */,
+				E45B593BD29E4E47AA92A597 /* MinSizeRel */,
+				E4062C9A92344EECA7F277B7 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 4DB7B7C709E54AA1B1CEFFC2;
+			mainGroup = 70CC880E9C374E8DAEC70824;
 			projectDirPath = "../../../boost-src/libs/program_options";
 			projectRoot = "";
 			targets = (
@@ -490,248 +490,56 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EE50D48F1047418AA0605CC9 /* Sources */ = {
+		B853F04124A547D688F0C9CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A87F9097954FA08A9A7121 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/cmdline.cpp */,
-				FEE9177966C2451B994E5C8F /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/config_file.cpp */,
-				49E785697E904573BE5297FF /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/convert.cpp */,
-				8159F44F4A19482FA12B8883 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/options_description.cpp */,
-				26EBC60C2BB54BDEB98F47E2 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/parsers.cpp */,
-				73FD4B95D39747788EF065F8 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/positional_options.cpp */,
-				ECCD7B8CE26F46128DC243AB /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/split.cpp */,
-				88FDF5250437401FAE19DA95 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/utf8_codecvt_facet.cpp */,
-				623F439CA86547E282640933 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/value_semantic.cpp */,
-				E0E146E2D3E94C0B815C728A /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/variables_map.cpp */,
-				ABF57F91C2C54EE09307AB7E /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/winmain.cpp */,
+				5D4D6981BFB049BDAD8599A2 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/cmdline.cpp */,
+				C31BF0AFB10F4056956DB249 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/config_file.cpp */,
+				EC71AAEB427149939841C2D7 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/convert.cpp */,
+				F36CCD8AB89F42F389FEDC53 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/options_description.cpp */,
+				74AA09B047884DA1B0079220 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/parsers.cpp */,
+				8EE7B50AD5C34389926B6886 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/positional_options.cpp */,
+				68454431A1354381B82D4F89 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/split.cpp */,
+				2184C1336ABF475AB57FC8FB /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/utf8_codecvt_facet.cpp */,
+				C0A496DC6B2545B4B7682588 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/value_semantic.cpp */,
+				83E7B1ED717849758ED1FDE3 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/variables_map.cpp */,
+				17B430F6009C4E03BDCFA1D0 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/src/winmain.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3D02670003AB485F89EA1E81 /* PBXTargetDependency */ = {
+		5896A969334A447B94984D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05DA54E260267FCA40EE5EFF /* ZERO_CHECK */;
+			targetProxy = D92FE13C43D4457B90CBFC11 /* PBXContainerItemProxy */;
+		};
+		74BD22D9382B4452A83A881C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05DA54E260267FCA40EE5EFF /* ZERO_CHECK */;
+			targetProxy = BAE0910E2729445DA48E98D3 /* PBXContainerItemProxy */;
+		};
+		BDE0DA77CB6246DB96309DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E64DF75D644A9717976D8387 /* ALL_BUILD */;
+			targetProxy = 471E9C944DB84E87B1DD2707 /* PBXContainerItemProxy */;
+		};
+		DA829909730D4D85857F3C28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 296FF5725DA670AC9F053CCE /* boost_program_options */;
-			targetProxy = 78C1CC31F2B1436CB823E988 /* PBXContainerItemProxy */;
+			targetProxy = DD799BAEB88A409E815E582D /* PBXContainerItemProxy */;
 		};
-		6CB6E882499B4B509925C3A8 /* PBXTargetDependency */ = {
+		DAA70FC68CBA4F9BBE838616 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E64DF75D644A9717976D8387 /* ALL_BUILD */;
-			targetProxy = 1C72CEED835E4991BBF115F4 /* PBXContainerItemProxy */;
-		};
-		9289D3B9F54C4EE5B51EA960 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 05DA54E260267FCA40EE5EFF /* ZERO_CHECK */;
-			targetProxy = 00A9F896E0FC4299AAAF58A0 /* PBXContainerItemProxy */;
-		};
-		B85BA652A49F46F597A1246E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E64DF75D644A9717976D8387 /* ALL_BUILD */;
-			targetProxy = 8F93F0AC447847CCB38B52CF /* PBXContainerItemProxy */;
-		};
-		CC66092AC4DC44539D3641A8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 05DA54E260267FCA40EE5EFF /* ZERO_CHECK */;
-			targetProxy = 2198E45C7B384382902BB662 /* PBXContainerItemProxy */;
+			targetProxy = DC6FD2854A2B421FA240F165 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0639CE3227F748EE8A49C1C1 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-build/libs/program_options/RelWithDebInfo";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_PROGRAM_OPTIONS_NO_LIB,BOOST_PROGRAM_OPTIONS_SOURCE,BOOST_PROGRAM_OPTIONS_STATIC_LINK,BOOST_CONTAINER_NO_LIB,BOOST_CONTAINER_STATIC_LINK,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/include","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = boost_program_options;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/any/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/config/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/throw_exception/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/assert/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/type_index/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/container_hash/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/describe/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/mp11/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/core/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/static_assert/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/detail/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/preprocessor/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/type_traits/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/function/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/bind/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/iterator/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/concept_check/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/function_types/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/mpl/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/predef/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/utility/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/io/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/fusion/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/tuple/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/typeof/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/functional/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/optional/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/smart_ptr/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/lexical_cast/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/container/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/intrusive/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/move/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/tokenizer/include","$(inherited)");
-				TARGET_TEMP_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/build/boost_program_options.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		07B1254003C94296B57FC86E /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		0B376DDFDD694DC7BD0F2B78 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-build/libs/program_options/Release";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_PROGRAM_OPTIONS_NO_LIB,BOOST_PROGRAM_OPTIONS_SOURCE,BOOST_PROGRAM_OPTIONS_STATIC_LINK,BOOST_CONTAINER_NO_LIB,BOOST_CONTAINER_STATIC_LINK,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/include","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = boost_program_options;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/any/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/config/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/throw_exception/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/assert/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/type_index/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/container_hash/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/describe/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/mp11/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/core/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/static_assert/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/detail/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/preprocessor/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/type_traits/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/function/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/bind/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/iterator/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/concept_check/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/function_types/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/mpl/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/predef/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/utility/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/io/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/fusion/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/tuple/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/typeof/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/functional/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/optional/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/smart_ptr/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/lexical_cast/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/container/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/intrusive/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/move/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/tokenizer/include","$(inherited)");
-				TARGET_TEMP_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/build/boost_program_options.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		0ED935B96B1343128A188AB2 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		134739C903BC41D78CF389E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		1B9EBCC3071B4BAA938C2D78 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		1F365CEF2ACA4F9194D35FFD /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		3816C28B93934311979AFA8C /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		3AB6A9C545BA4104BB26AD75 /* RelWithDebInfo */ = {
+		0855639A3E884EF7AC6C687E /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -753,48 +561,7 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		576D3109228F40C39529B589 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		5A38BF0AE25B424EB66D56C9 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
-			};
-			name = MinSizeRel;
-		};
-		7FB30DD752474227B2D76A5A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
-			};
-			name = Debug;
-		};
-		8574382DD31648668459A2B7 /* Debug */ = {
+		09E79FAB372C472E8A101E42 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -814,31 +581,19 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = RelWithDebInfo;
 		};
-		95AED03935BB4D5B94B1933F /* Debug */ = {
+		2BD702B94EED439B9F53F9E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
 			};
-			name = Debug;
+			name = Release;
 		};
-		9BB2B601574949A18259DB25 /* MinSizeRel */ = {
+		41168A3FAC614D27AD08A6A6 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -868,17 +623,29 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		AF4505D99DFB4EFC814335FD /* Release */ = {
+		42EBEA3561FF42C4AEEAC0C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = Debug;
 		};
-		B47A0F47E35F4087B646F936 /* Release */ = {
+		53AC8059BBBC4DD3BD7F4B65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -900,7 +667,83 @@ fi
 			};
 			name = Release;
 		};
-		C286982E094149CCBBA7E0FA /* Debug */ = {
+		62337530E066417AA0B2012C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		84E35B364C274857AED37819 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		86C60C4FF0834AFAB81FC931 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		8775FB2551364EB1B27E7387 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8CD234545A374E59A8D6D9CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -930,39 +773,7 @@ fi
 			};
 			name = Debug;
 		};
-		C84BB41BCC9A4D509305B56B /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
-			};
-			name = RelWithDebInfo;
-		};
-		CEBED525DC314313A2B86E23 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		D3AC4A52B1E64516ADB9FD66 /* Debug */ = {
+		97A1FA390CF442A99608025B /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -982,9 +793,176 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
+			name = RelWithDebInfo;
+		};
+		9DEAA809252E4B08B975672A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-build/libs/program_options/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_PROGRAM_OPTIONS_NO_LIB,BOOST_PROGRAM_OPTIONS_SOURCE,BOOST_PROGRAM_OPTIONS_STATIC_LINK,BOOST_CONTAINER_NO_LIB,BOOST_CONTAINER_STATIC_LINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = boost_program_options;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/any/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/config/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/throw_exception/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/assert/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/type_index/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/container_hash/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/describe/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/mp11/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/core/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/static_assert/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/detail/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/preprocessor/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/type_traits/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/function/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/bind/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/iterator/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/concept_check/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/function_types/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/mpl/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/predef/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/utility/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/io/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/fusion/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/tuple/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/typeof/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/functional/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/optional/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/smart_ptr/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/lexical_cast/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/container/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/intrusive/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/move/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/tokenizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/build/boost_program_options.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A4A291A3B9B84D0C9749413B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
 			name = Debug;
 		};
-		D45ADC1CBB4A412B9C349F1C /* Release */ = {
+		A5D29F38BFB44BA8ACBC8F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
+			};
+			name = Debug;
+		};
+		BD2228D9A116407592B8D4FD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DE3A425284C84017A4410299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E6ADD1F78A1A43E3A38E14A6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		E7EC83797F224E32854B1579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F0747881936B4B5F885F9620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-build/libs/program_options/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_PROGRAM_OPTIONS_NO_LIB,BOOST_PROGRAM_OPTIONS_SOURCE,BOOST_PROGRAM_OPTIONS_STATIC_LINK,BOOST_CONTAINER_NO_LIB,BOOST_CONTAINER_STATIC_LINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/program_options/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = boost_program_options;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/any/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/config/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/throw_exception/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/assert/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/type_index/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/container_hash/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/describe/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/mp11/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/core/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/static_assert/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/detail/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/preprocessor/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/type_traits/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/function/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/bind/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/iterator/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/concept_check/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/function_types/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/mpl/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/predef/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/utility/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/io/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/fusion/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/tuple/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/typeof/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/functional/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/optional/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/smart_ptr/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/lexical_cast/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/container/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/intrusive/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/move/include","/Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/tokenizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/build/boost_program_options.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F4585603148C493AB60D79AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1006,7 +984,7 @@ fi
 			};
 			name = Release;
 		};
-		E35107EF4C1B43E3BA2333F5 /* Debug */ = {
+		F749320FE9144623AA56688D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1021,14 +999,14 @@ fi
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = Release;
 		};
-		F4FEABE0573940A4A95CC616 /* RelWithDebInfo */ = {
+		F90F308B7A6B450F9D68DD38 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1048,73 +1026,95 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = RelWithDebInfo;
+			name = MinSizeRel;
+		};
+		FD0E2AE1671349C4A009E07A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F940B3957B044F4BB371D41 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		65B8FFD91ED645058015C153 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95AED03935BB4D5B94B1933F /* Debug */,
-				576D3109228F40C39529B589 /* Release */,
-				07B1254003C94296B57FC86E /* MinSizeRel */,
-				F4FEABE0573940A4A95CC616 /* RelWithDebInfo */,
+				A4A291A3B9B84D0C9749413B /* Debug */,
+				F4585603148C493AB60D79AF /* Release */,
+				FD0E2AE1671349C4A009E07A /* MinSizeRel */,
+				0855639A3E884EF7AC6C687E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		26E6B3CF97B7420180AEEE38 /* Build configuration list for PBXProject "boost_program_options" */ = {
+		9957FCB1A3434CE083F9CEBE /* Build configuration list for PBXNativeTarget "boost_program_options" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FB30DD752474227B2D76A5A /* Debug */,
-				AF4505D99DFB4EFC814335FD /* Release */,
-				5A38BF0AE25B424EB66D56C9 /* MinSizeRel */,
-				C84BB41BCC9A4D509305B56B /* RelWithDebInfo */,
+				8CD234545A374E59A8D6D9CC /* Debug */,
+				F0747881936B4B5F885F9620 /* Release */,
+				41168A3FAC614D27AD08A6A6 /* MinSizeRel */,
+				9DEAA809252E4B08B975672A /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2DE26294CBA34C4DB760342D /* Build configuration list for PBXAggregateTarget "package" */ = {
+		A38C232C471A49C0BD196587 /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8574382DD31648668459A2B7 /* Debug */,
-				B47A0F47E35F4087B646F936 /* Release */,
-				0ED935B96B1343128A188AB2 /* MinSizeRel */,
-				1F365CEF2ACA4F9194D35FFD /* RelWithDebInfo */,
+				62337530E066417AA0B2012C /* Debug */,
+				53AC8059BBBC4DD3BD7F4B65 /* Release */,
+				BD2228D9A116407592B8D4FD /* MinSizeRel */,
+				09E79FAB372C472E8A101E42 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		649BE9D06AF7460BBBDD555D /* Build configuration list for PBXAggregateTarget "install" */ = {
+		AB1216ADA51A43FC81C26E7E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3AC4A52B1E64516ADB9FD66 /* Debug */,
-				134739C903BC41D78CF389E3 /* Release */,
-				3816C28B93934311979AFA8C /* MinSizeRel */,
-				1B9EBCC3071B4BAA938C2D78 /* RelWithDebInfo */,
+				E7EC83797F224E32854B1579 /* Debug */,
+				DE3A425284C84017A4410299 /* Release */,
+				F90F308B7A6B450F9D68DD38 /* MinSizeRel */,
+				8775FB2551364EB1B27E7387 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F46D3C5B0D324CF4BE8283CD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		AC15CE1A4A54482A811CA69F /* Build configuration list for PBXProject "boost_program_options" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E35107EF4C1B43E3BA2333F5 /* Debug */,
-				D45ADC1CBB4A412B9C349F1C /* Release */,
-				CEBED525DC314313A2B86E23 /* MinSizeRel */,
-				3AB6A9C545BA4104BB26AD75 /* RelWithDebInfo */,
+				A5D29F38BFB44BA8ACBC8F76 /* Debug */,
+				2BD702B94EED439B9F53F9E0 /* Release */,
+				86C60C4FF0834AFAB81FC931 /* MinSizeRel */,
+				E6ADD1F78A1A43E3A38E14A6 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F96DAF9E512440349A369907 /* Build configuration list for PBXNativeTarget "boost_program_options" */ = {
+		DBF815E550354A569D566152 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C286982E094149CCBBA7E0FA /* Debug */,
-				0B376DDFDD694DC7BD0F2B78 /* Release */,
-				9BB2B601574949A18259DB25 /* MinSizeRel */,
-				0639CE3227F748EE8A49C1C1 /* RelWithDebInfo */,
+				42EBEA3561FF42C4AEEAC0C3 /* Debug */,
+				F749320FE9144623AA56688D /* Release */,
+				84E35B364C274857AED37819 /* MinSizeRel */,
+				97A1FA390CF442A99608025B /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

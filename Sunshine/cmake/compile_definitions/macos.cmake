@@ -56,3 +56,8 @@ if(SUNSHINE_ENABLE_TRAY)
     list(APPEND PLATFORM_TARGET_FILES
             "${CMAKE_SOURCE_DIR}/third-party/tray/src/tray_darwin.m")
 endif()
+
+# Define WEB_DIR as an absolute path
+get_filename_component(SUNSHINE_ABS_PATH "${CMAKE_SOURCE_DIR}" REALPATH)
+set(WEB_ROOT_PATH "${SUNSHINE_ABS_PATH}/assets/web/")
+add_compile_definitions(WEB_DIR="${WEB_ROOT_PATH}")

@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		05DA54E260267FCA40EE5EFF /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E40FAE4DBC2D413A9666957A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = CDD55FAE0CCF490497096960 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				E85ABE3A8FE4FFD8D3D3EA62 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,37 +20,37 @@
 		};
 		5CF28BDCD049370E1A3651AD /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = FF37D587F5334A55AD6CFC8B /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = CAE2E79FCB384A1A8475F113 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				439CEB72446A4EC295AB3AD8 /* PBXTargetDependency */,
+				C478B26D987346D59AFD963F /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		D393ED0C9FBE8A975100E39B /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 8E731AD809454D62A366901A /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = AFD39F71EA164C3FBB2DFBAB /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				DFC53139A4AB4456B98FF5E6 /* PBXTargetDependency */,
+				74C063ED6FC04619826B9F94 /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
 		};
 		E64DF75D644A9717976D8387 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D0F6BB377E2E4BE88E64ED5A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 00C799307A2C4F4AB32A8201 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				CD0E612440E106F18D4C9F3C /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				17AAF01C1BDB41ECA8FA36CA /* PBXTargetDependency */,
-				93603EE303874E23938078E0 /* PBXTargetDependency */,
+				B02B6F3CB2694341978F848B /* PBXTargetDependency */,
+				8A1941FAF4DC4515AC2DA179 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -58,88 +58,88 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		04EAC743B99B48CF934C1F04 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/packet.c */ = {isa = PBXBuildFile; fileRef = E1CD1238E16D444E9D8B4D2B /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/packet.c */; };
-		17CF6377BB064AE3ADD1D584 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/callbacks.c */ = {isa = PBXBuildFile; fileRef = 47CAEEA380D84A0B9AECD13D /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/callbacks.c */; };
-		28EDCA7C9F824C848164C378 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/host.c */ = {isa = PBXBuildFile; fileRef = E506DEF2F4B6446C93AE69C0 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/host.c */; };
-		3080C447F1C243C4BA6DAC1F /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/unix.c */ = {isa = PBXBuildFile; fileRef = 7F6379205D874BA88C49D8B4 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/unix.c */; };
-		339F0ED2E7744372A9635A63 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/protocol.h */ = {isa = PBXBuildFile; fileRef = 80E6404711674853A73C1BE2 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/protocol.h */; };
-		348242D9CC564611A80F60EB /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/callbacks.h */ = {isa = PBXBuildFile; fileRef = 72B9F35B808746CF84F338F6 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/callbacks.h */; };
-		3A3EFA5955004D119DFC2504 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/protocol.c */ = {isa = PBXBuildFile; fileRef = 1B5D9E3127674D3BA7550648 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/protocol.c */; };
-		3C10CAAAFE6349C49A6395F6 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/compress.c */ = {isa = PBXBuildFile; fileRef = E0192AA480FC452D942C36E1 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/compress.c */; };
-		3C98BB4F180B498BAFDCE8A9 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E600EE9C388C46AB98DD67C0 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/CMakeLists.txt */; };
-		3ED882DD6E554029ABC65F2B /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/peer.c */ = {isa = PBXBuildFile; fileRef = A606F04710244CDBBD27E434 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/peer.c */; };
-		450581E68AC544928EAC5CEF /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/unix.h */ = {isa = PBXBuildFile; fileRef = AB247937B0E04E61BB1CBC85 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/unix.h */; };
-		7FF5ECD3E57B44E7B8E7FCEA /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/list.c */ = {isa = PBXBuildFile; fileRef = DA9036A566914ED4B1439A52 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/list.c */; };
-		8FD6CDF4FB5446F6933230B7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/utility.h */ = {isa = PBXBuildFile; fileRef = 8D879EF0A81C4304A85E34C7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/utility.h */; };
-		90DA27B88C9A43EF95676C07 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/time.h */ = {isa = PBXBuildFile; fileRef = 87B2A4DB5762429694E0147A /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/time.h */; };
-		A0D84C67C49A4D819BCAB018 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/enet.h */ = {isa = PBXBuildFile; fileRef = 49660C835598449B96AC07F5 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/enet.h */; };
-		A5284DC6150545A5BA258783 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/win32.c */ = {isa = PBXBuildFile; fileRef = 4D4B1423801D4B22967EECE7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/win32.c */; };
-		D523CBCD036A4553B434C8CE /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/win32.h */ = {isa = PBXBuildFile; fileRef = 35B480F6F63F48A79489FABC /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/win32.h */; };
-		F96143A25DB84A7DA9D2B55E /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/list.h */ = {isa = PBXBuildFile; fileRef = 6DA2BF54318F4D0D9E0D0938 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/list.h */; };
-		F9A80D3A998E49B888699F51 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/types.h */ = {isa = PBXBuildFile; fileRef = 59B6B82025284B7393B51385 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/types.h */; };
+		18922919F1624F7F93520618 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3127B715DE5045F3A7DE1259 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/CMakeLists.txt */; };
+		25C04F55C9F64A7ABB57544D /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/unix.h */ = {isa = PBXBuildFile; fileRef = F5C2B095F8D040B99060EE70 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/unix.h */; };
+		2AB2BC95236B4B6C9529577B /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/types.h */ = {isa = PBXBuildFile; fileRef = FEF786801923458E85FA4D7C /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/types.h */; };
+		33CA9403843D483BA43798E3 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/enet.h */ = {isa = PBXBuildFile; fileRef = F94E0267414D493EB93901E9 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/enet.h */; };
+		39CE6F86CD5B4B46B997FFF7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/host.c */ = {isa = PBXBuildFile; fileRef = DBF2AF2902FA4F2EA242F170 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/host.c */; };
+		3EF9C78786F4464CB6303C5B /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/callbacks.h */ = {isa = PBXBuildFile; fileRef = CDE89C64B18144E983D00D71 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/callbacks.h */; };
+		41D6BC110FBE42C086639574 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/win32.c */ = {isa = PBXBuildFile; fileRef = 8ED267A9F43F44539570C88C /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/win32.c */; };
+		45DD927FE4134AA393FB8667 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/utility.h */ = {isa = PBXBuildFile; fileRef = 7D760943F935488DAB6EE8C7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/utility.h */; };
+		52AD0755DAA7400CA2816A4C /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/list.c */ = {isa = PBXBuildFile; fileRef = 8A90C7B89FD04F97AD48394E /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/list.c */; };
+		594B5C5EE390416D86E5DD74 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/win32.h */ = {isa = PBXBuildFile; fileRef = 2A974D918D704894AD8F0221 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/win32.h */; };
+		5F2FA384DA1641CA84777A19 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/callbacks.c */ = {isa = PBXBuildFile; fileRef = 2B165E0358984D44B74B6DB9 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/callbacks.c */; };
+		6515D26B29E940239498A9E8 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/protocol.c */ = {isa = PBXBuildFile; fileRef = 219E1EFE9FBA40799AB8AA1E /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/protocol.c */; };
+		7951366CB3274676AC95260F /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/compress.c */ = {isa = PBXBuildFile; fileRef = B00E1EB5B1BE467EA7CC6AD7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/compress.c */; };
+		7ADDECFC9E5A4E5A907A9D33 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/protocol.h */ = {isa = PBXBuildFile; fileRef = 639FAC21062C47E68944B240 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/protocol.h */; };
+		862545E764164821B76A6D5E /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/packet.c */ = {isa = PBXBuildFile; fileRef = F9210DBA64DB47798F6B2747 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/packet.c */; };
+		941CECA2C40B4E0BA5C6146C /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/peer.c */ = {isa = PBXBuildFile; fileRef = B3AD5DD0B5F647B2824A26D7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/peer.c */; };
+		AE3D124CB4254101B69D6DF8 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/time.h */ = {isa = PBXBuildFile; fileRef = 2A75B8A5B71C4C1593DAD71B /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/time.h */; };
+		E6508C40FBAF45FD885CB9DD /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/list.h */ = {isa = PBXBuildFile; fileRef = 756ACB6AC6254CA49DEA66E0 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/list.h */; };
+		FCEE1000D16445DDA70D33AA /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/unix.c */ = {isa = PBXBuildFile; fileRef = DBFE7761C0DE4980AD123C74 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/unix.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		2932B933C649499F95F38175 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		7157BECFFA434020AE0D6A86 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		951D462FDF1443D3881E0205 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		A8832021031546C8821587CD /* RelWithDebInfo */ = {
+		42BE72F27B6040AE859B8F75 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
+		74E2EBF1E8484B13AF2C6DB6 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		9F655B7D65CD42AC8E62A292 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		AE49B45C206A4383ACC101E1 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		820DF79521D54BA5894D266F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 156835C4695640A5B8A022F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 05DA54E260267FCA40EE5EFF;
-			remoteInfo = ZERO_CHECK;
-		};
-		A9A4187FAE804FD4B986A00A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 156835C4695640A5B8A022F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E64DF75D644A9717976D8387;
-			remoteInfo = ALL_BUILD;
-		};
-		CD6EC3B8B7EB45D1B9B1B30F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 156835C4695640A5B8A022F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 05DA54E260267FCA40EE5EFF;
-			remoteInfo = ZERO_CHECK;
-		};
-		DC1B85316AEF461DA04277C7 /* PBXContainerItemProxy */ = {
+		021DBBD5969D48E7B16A595C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 156835C4695640A5B8A022F2 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D4B1D43489966C3960B9A154;
 			remoteInfo = enet;
 		};
-		F39EC3D339A7456994D4ACC1 /* PBXContainerItemProxy */ = {
+		69FF4F590A69437B81261F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 156835C4695640A5B8A022F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E64DF75D644A9717976D8387;
+			remoteInfo = ALL_BUILD;
+		};
+		76241FA5CC4F4E74ADB605E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 156835C4695640A5B8A022F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DA54E260267FCA40EE5EFF;
+			remoteInfo = ZERO_CHECK;
+		};
+		E4715D7C3B97485FB9092A99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 156835C4695640A5B8A022F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DA54E260267FCA40EE5EFF;
+			remoteInfo = ZERO_CHECK;
+		};
+		FED693B6ADF4444DBFB1098F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 156835C4695640A5B8A022F2 /* Project object */;
 			proxyType = 1;
@@ -149,31 +149,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B5D9E3127674D3BA7550648 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/protocol.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = protocol.c; path = protocol.c; sourceTree = SOURCE_ROOT; };
-		2C119B8C97DE4BE187B2EAE7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		35B480F6F63F48A79489FABC /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/win32.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = win32.h; path = include/enet/win32.h; sourceTree = SOURCE_ROOT; };
-		47CAEEA380D84A0B9AECD13D /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/callbacks.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = callbacks.c; path = callbacks.c; sourceTree = SOURCE_ROOT; };
-		49660C835598449B96AC07F5 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/enet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = enet.h; path = include/enet/enet.h; sourceTree = SOURCE_ROOT; };
-		4D4B1423801D4B22967EECE7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/win32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = win32.c; path = win32.c; sourceTree = SOURCE_ROOT; };
-		59B6B82025284B7393B51385 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types.h; path = include/enet/types.h; sourceTree = SOURCE_ROOT; };
-		6DA2BF54318F4D0D9E0D0938 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/list.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = list.h; path = include/enet/list.h; sourceTree = SOURCE_ROOT; };
-		72B9F35B808746CF84F338F6 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/callbacks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = callbacks.h; path = include/enet/callbacks.h; sourceTree = SOURCE_ROOT; };
-		7F6379205D874BA88C49D8B4 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/unix.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unix.c; path = unix.c; sourceTree = SOURCE_ROOT; };
-		80E6404711674853A73C1BE2 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/protocol.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = protocol.h; path = include/enet/protocol.h; sourceTree = SOURCE_ROOT; };
-		87B2A4DB5762429694E0147A /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/time.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = time.h; path = include/enet/time.h; sourceTree = SOURCE_ROOT; };
-		8D879EF0A81C4304A85E34C7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/utility.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utility.h; path = include/enet/utility.h; sourceTree = SOURCE_ROOT; };
-		A606F04710244CDBBD27E434 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/peer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = peer.c; path = peer.c; sourceTree = SOURCE_ROOT; };
-		AB247937B0E04E61BB1CBC85 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/unix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = unix.h; path = include/enet/unix.h; sourceTree = SOURCE_ROOT; };
-		C14CCE0DC1A24777B165C4BB /* enet */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libenet.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA9036A566914ED4B1439A52 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/list.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = list.c; path = list.c; sourceTree = SOURCE_ROOT; };
-		E0192AA480FC452D942C36E1 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/compress.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = compress.c; path = compress.c; sourceTree = SOURCE_ROOT; };
-		E1CD1238E16D444E9D8B4D2B /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/packet.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = packet.c; path = packet.c; sourceTree = SOURCE_ROOT; };
-		E506DEF2F4B6446C93AE69C0 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/host.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = host.c; path = host.c; sourceTree = SOURCE_ROOT; };
-		E600EE9C388C46AB98DD67C0 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		219E1EFE9FBA40799AB8AA1E /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/protocol.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = protocol.c; path = protocol.c; sourceTree = SOURCE_ROOT; };
+		2A75B8A5B71C4C1593DAD71B /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/time.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = time.h; path = include/enet/time.h; sourceTree = SOURCE_ROOT; };
+		2A974D918D704894AD8F0221 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/win32.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = win32.h; path = include/enet/win32.h; sourceTree = SOURCE_ROOT; };
+		2B165E0358984D44B74B6DB9 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/callbacks.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = callbacks.c; path = callbacks.c; sourceTree = SOURCE_ROOT; };
+		3127B715DE5045F3A7DE1259 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		639FAC21062C47E68944B240 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/protocol.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = protocol.h; path = include/enet/protocol.h; sourceTree = SOURCE_ROOT; };
+		73638D795AD94B0BBB1CEF0A /* enet */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libenet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		756ACB6AC6254CA49DEA66E0 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/list.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = list.h; path = include/enet/list.h; sourceTree = SOURCE_ROOT; };
+		7D760943F935488DAB6EE8C7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/utility.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utility.h; path = include/enet/utility.h; sourceTree = SOURCE_ROOT; };
+		8A90C7B89FD04F97AD48394E /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/list.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = list.c; path = list.c; sourceTree = SOURCE_ROOT; };
+		8ED267A9F43F44539570C88C /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/win32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = win32.c; path = win32.c; sourceTree = SOURCE_ROOT; };
+		B00E1EB5B1BE467EA7CC6AD7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/compress.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = compress.c; path = compress.c; sourceTree = SOURCE_ROOT; };
+		B3AD5DD0B5F647B2824A26D7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/peer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = peer.c; path = peer.c; sourceTree = SOURCE_ROOT; };
+		CDE89C64B18144E983D00D71 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/callbacks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = callbacks.h; path = include/enet/callbacks.h; sourceTree = SOURCE_ROOT; };
+		DBF2AF2902FA4F2EA242F170 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/host.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = host.c; path = host.c; sourceTree = SOURCE_ROOT; };
+		DBFE7761C0DE4980AD123C74 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/unix.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unix.c; path = unix.c; sourceTree = SOURCE_ROOT; };
+		E4A8CB32B5E34C259186DCF1 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F5C2B095F8D040B99060EE70 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/unix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = unix.h; path = include/enet/unix.h; sourceTree = SOURCE_ROOT; };
+		F9210DBA64DB47798F6B2747 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/packet.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = packet.c; path = packet.c; sourceTree = SOURCE_ROOT; };
+		F94E0267414D493EB93901E9 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/enet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = enet.h; path = include/enet/enet.h; sourceTree = SOURCE_ROOT; };
+		FEF786801923458E85FA4D7C /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types.h; path = include/enet/types.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		22FA81EB2CBB47CB97E887C2 /* Frameworks */ = {
+		90EC4985D1684E7497ECDDF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -183,95 +183,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		158D79F4377345D8A2EADC19 /* Products */ = {
+		08A11AE01DF4472F999897A7 = {
 			isa = PBXGroup;
 			children = (
-				C14CCE0DC1A24777B165C4BB /* enet */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3E13F1F433554581A61F3963 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				47CAEEA380D84A0B9AECD13D /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/callbacks.c */,
-				E0192AA480FC452D942C36E1 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/compress.c */,
-				E506DEF2F4B6446C93AE69C0 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/host.c */,
-				DA9036A566914ED4B1439A52 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/list.c */,
-				E1CD1238E16D444E9D8B4D2B /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/packet.c */,
-				A606F04710244CDBBD27E434 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/peer.c */,
-				1B5D9E3127674D3BA7550648 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/protocol.c */,
-				7F6379205D874BA88C49D8B4 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/unix.c */,
-				4D4B1423801D4B22967EECE7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/win32.c */,
-			);
-			name = source;
-			sourceTree = "<group>";
-		};
-		5E220FDF6D624D978E796B8D /* include */ = {
-			isa = PBXGroup;
-			children = (
-				72B9F35B808746CF84F338F6 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/callbacks.h */,
-				49660C835598449B96AC07F5 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/enet.h */,
-				6DA2BF54318F4D0D9E0D0938 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/list.h */,
-				80E6404711674853A73C1BE2 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/protocol.h */,
-				87B2A4DB5762429694E0147A /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/time.h */,
-				59B6B82025284B7393B51385 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/types.h */,
-				AB247937B0E04E61BB1CBC85 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/unix.h */,
-				8D879EF0A81C4304A85E34C7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/utility.h */,
-				35B480F6F63F48A79489FABC /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/win32.h */,
-			);
-			name = include;
-			sourceTree = "<group>";
-		};
-		5F8B8A45A06E499088012E39 = {
-			isa = PBXGroup;
-			children = (
-				B6EA95BD56C94A28AF4AE262 /* enet */,
-				CD777AAB804049D4BCD5EF8C /* ALL_BUILD */,
-				158D79F4377345D8A2EADC19 /* Products */,
-				A1334374810C42FD99408A49 /* Frameworks */,
-				BEA2FFBCF30F419FB7518C97 /* Resources */,
+				8F45EC1E360147ADA9B9A58D /* enet */,
+				66AEC32DA75E4FE0821C2603 /* ALL_BUILD */,
+				56AC3DA1660B4F3C9C81E7E6 /* Products */,
+				0BBFFE6F6B454C40A735ED57 /* Frameworks */,
+				DB521D7DDF4849069730C413 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
-		A1334374810C42FD99408A49 /* Frameworks */ = {
+		0BBFFE6F6B454C40A735ED57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B6EA95BD56C94A28AF4AE262 /* enet */ = {
+		2699A1FEA8DE41EBAAC8CACE /* source */ = {
 			isa = PBXGroup;
 			children = (
-				5E220FDF6D624D978E796B8D /* include */,
-				3E13F1F433554581A61F3963 /* source */,
-				E600EE9C388C46AB98DD67C0 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/CMakeLists.txt */,
+				2B165E0358984D44B74B6DB9 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/callbacks.c */,
+				B00E1EB5B1BE467EA7CC6AD7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/compress.c */,
+				DBF2AF2902FA4F2EA242F170 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/host.c */,
+				8A90C7B89FD04F97AD48394E /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/list.c */,
+				F9210DBA64DB47798F6B2747 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/packet.c */,
+				B3AD5DD0B5F647B2824A26D7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/peer.c */,
+				219E1EFE9FBA40799AB8AA1E /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/protocol.c */,
+				DBFE7761C0DE4980AD123C74 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/unix.c */,
+				8ED267A9F43F44539570C88C /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/win32.c */,
 			);
-			name = enet;
+			name = source;
 			sourceTree = "<group>";
 		};
-		BEA2FFBCF30F419FB7518C97 /* Resources */ = {
+		4E026074944F4644839ED638 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				CDE89C64B18144E983D00D71 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/callbacks.h */,
+				F94E0267414D493EB93901E9 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/enet.h */,
+				756ACB6AC6254CA49DEA66E0 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/list.h */,
+				639FAC21062C47E68944B240 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/protocol.h */,
+				2A75B8A5B71C4C1593DAD71B /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/time.h */,
+				FEF786801923458E85FA4D7C /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/types.h */,
+				F5C2B095F8D040B99060EE70 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/unix.h */,
+				7D760943F935488DAB6EE8C7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/utility.h */,
+				2A974D918D704894AD8F0221 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include/enet/win32.h */,
 			);
-			name = Resources;
+			name = include;
 			sourceTree = "<group>";
 		};
-		CD777AAB804049D4BCD5EF8C /* ALL_BUILD */ = {
+		56AC3DA1660B4F3C9C81E7E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E43425F898214B57A0114BFA /* CMake Rules */,
-				2C119B8C97DE4BE187B2EAE7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/CMakeLists.txt */,
+				73638D795AD94B0BBB1CEF0A /* enet */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66AEC32DA75E4FE0821C2603 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6CC7136AF53746CDAFBCC5F4 /* CMake Rules */,
+				E4A8CB32B5E34C259186DCF1 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		E43425F898214B57A0114BFA /* CMake Rules */ = {
+		6CC7136AF53746CDAFBCC5F4 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8F45EC1E360147ADA9B9A58D /* enet */ = {
+			isa = PBXGroup;
+			children = (
+				4E026074944F4644839ED638 /* include */,
+				2699A1FEA8DE41EBAAC8CACE /* source */,
+				3127B715DE5045F3A7DE1259 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/CMakeLists.txt */,
+			);
+			name = enet;
+			sourceTree = "<group>";
+		};
+		DB521D7DDF4849069730C413 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,19 +279,19 @@
 /* Begin PBXNativeTarget section */
 		D4B1D43489966C3960B9A154 /* enet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 940C662BEEF24526857375ED /* Build configuration list for PBXNativeTarget "enet" */;
+			buildConfigurationList = A31651244616431682001982 /* Build configuration list for PBXNativeTarget "enet" */;
 			buildPhases = (
-				A57F570FEA3A4F3C84CB30A8 /* Sources */,
-				22FA81EB2CBB47CB97E887C2 /* Frameworks */,
+				FF751A5430D541C0B6197E9E /* Sources */,
+				90EC4985D1684E7497ECDDF8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A7399CA4A9984764ADB27322 /* PBXTargetDependency */,
+				88A9D894F4364F5C9A78B6DE /* PBXTargetDependency */,
 			);
 			name = enet;
 			productName = enet;
-			productReference = C14CCE0DC1A24777B165C4BB /* enet */;
+			productReference = 73638D795AD94B0BBB1CEF0A /* enet */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -303,18 +303,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1640;
 			};
-			buildConfigurationList = 326B020681CF488DA39694C7 /* Build configuration list for PBXProject "enet" */;
+			buildConfigurationList = 7EE482B00F0B473C8A9113B9 /* Build configuration list for PBXProject "enet" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				951D462FDF1443D3881E0205 /* Debug */,
-				7157BECFFA434020AE0D6A86 /* Release */,
-				2932B933C649499F95F38175 /* MinSizeRel */,
-				A8832021031546C8821587CD /* RelWithDebInfo */,
+				9F655B7D65CD42AC8E62A292 /* Debug */,
+				AE49B45C206A4383ACC101E1 /* Release */,
+				74E2EBF1E8484B13AF2C6DB6 /* MinSizeRel */,
+				42BE72F27B6040AE859B8F75 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 5F8B8A45A06E499088012E39;
+			mainGroup = 08A11AE01DF4472F999897A7;
 			projectDirPath = "/Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet";
 			projectRoot = "";
 			targets = (
@@ -519,127 +519,54 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A57F570FEA3A4F3C84CB30A8 /* Sources */ = {
+		FF751A5430D541C0B6197E9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17CF6377BB064AE3ADD1D584 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/callbacks.c */,
-				3C10CAAAFE6349C49A6395F6 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/compress.c */,
-				28EDCA7C9F824C848164C378 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/host.c */,
-				7FF5ECD3E57B44E7B8E7FCEA /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/list.c */,
-				04EAC743B99B48CF934C1F04 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/packet.c */,
-				3ED882DD6E554029ABC65F2B /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/peer.c */,
-				3A3EFA5955004D119DFC2504 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/protocol.c */,
-				3080C447F1C243C4BA6DAC1F /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/unix.c */,
-				A5284DC6150545A5BA258783 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/win32.c */,
+				5F2FA384DA1641CA84777A19 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/callbacks.c */,
+				7951366CB3274676AC95260F /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/compress.c */,
+				39CE6F86CD5B4B46B997FFF7 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/host.c */,
+				52AD0755DAA7400CA2816A4C /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/list.c */,
+				862545E764164821B76A6D5E /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/packet.c */,
+				941CECA2C40B4E0BA5C6146C /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/peer.c */,
+				6515D26B29E940239498A9E8 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/protocol.c */,
+				FCEE1000D16445DDA70D33AA /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/unix.c */,
+				41D6BC110FBE42C086639574 /* /Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/win32.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		17AAF01C1BDB41ECA8FA36CA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 05DA54E260267FCA40EE5EFF /* ZERO_CHECK */;
-			targetProxy = CD6EC3B8B7EB45D1B9B1B30F /* PBXContainerItemProxy */;
-		};
-		439CEB72446A4EC295AB3AD8 /* PBXTargetDependency */ = {
+		74C063ED6FC04619826B9F94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E64DF75D644A9717976D8387 /* ALL_BUILD */;
-			targetProxy = A9A4187FAE804FD4B986A00A /* PBXContainerItemProxy */;
+			targetProxy = 69FF4F590A69437B81261F7C /* PBXContainerItemProxy */;
 		};
-		93603EE303874E23938078E0 /* PBXTargetDependency */ = {
+		88A9D894F4364F5C9A78B6DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05DA54E260267FCA40EE5EFF /* ZERO_CHECK */;
+			targetProxy = E4715D7C3B97485FB9092A99 /* PBXContainerItemProxy */;
+		};
+		8A1941FAF4DC4515AC2DA179 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D4B1D43489966C3960B9A154 /* enet */;
-			targetProxy = DC1B85316AEF461DA04277C7 /* PBXContainerItemProxy */;
+			targetProxy = 021DBBD5969D48E7B16A595C /* PBXContainerItemProxy */;
 		};
-		A7399CA4A9984764ADB27322 /* PBXTargetDependency */ = {
+		B02B6F3CB2694341978F848B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 05DA54E260267FCA40EE5EFF /* ZERO_CHECK */;
-			targetProxy = 820DF79521D54BA5894D266F /* PBXContainerItemProxy */;
+			targetProxy = 76241FA5CC4F4E74ADB605E5 /* PBXContainerItemProxy */;
 		};
-		DFC53139A4AB4456B98FF5E6 /* PBXTargetDependency */ = {
+		C478B26D987346D59AFD963F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E64DF75D644A9717976D8387 /* ALL_BUILD */;
-			targetProxy = F39EC3D339A7456994D4ACC1 /* PBXContainerItemProxy */;
+			targetProxy = FED693B6ADF4444DBFB1098F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		056535789BBE4C1F829198C2 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		2F8DEA9F09BD48929FCED7C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		359E995FD9D246F7B3B7FADF /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/third-party/moonlight-common-c/enet/RelWithDebInfo";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'HAS_FCNTL=1'","'HAS_IOCTL=1'","'HAS_POLL=1'","'HAS_GETNAMEINFO=1'","'HAS_GETADDRINFO=1'","'HAS_INET_PTON=1'","'HAS_INET_NTOP=1'","'HAS_MSGHDR_FLAGS=1'","'HAS_SOCKLEN_T=1'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("       -DNDEBUG   -Wno-error","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = enet;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include","$(inherited)");
-				TARGET_TEMP_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/build/enet.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		3735602989624454B6630B60 /* RelWithDebInfo */ = {
+		0839E6E4F63049EB8902DD24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -659,9 +586,31 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
+			name = Release;
+		};
+		123115981C204FC591302671 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
 			name = RelWithDebInfo;
 		};
-		38A3429C40384D1E95BB6833 /* Release */ = {
+		1554346FCAD84179A45983BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -681,60 +630,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
-		};
-		5156793ED4CC4FB18790097B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/third-party/moonlight-common-c/enet/Debug";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'HAS_FCNTL=1'","'HAS_IOCTL=1'","'HAS_POLL=1'","'HAS_GETNAMEINFO=1'","'HAS_GETADDRINFO=1'","'HAS_INET_PTON=1'","'HAS_INET_NTOP=1'","'HAS_MSGHDR_FLAGS=1'","'HAS_SOCKLEN_T=1'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("     -Wno-error","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = enet;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include","$(inherited)");
-				TARGET_TEMP_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/build/enet.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
 			name = Debug;
 		};
-		5555AF4AF0CC4E3A8E1E3D61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		57062AF8965C4E3393D36BAE /* Debug */ = {
+		2284D735755E4828914BE371 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -756,7 +654,29 @@ fi
 			};
 			name = Debug;
 		};
-		5CD7A7F0934142CA8ACDF5DF /* MinSizeRel */ = {
+		2FF699CE982246C5A7A027F1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		390FF8B5F4CB4E789F557CE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -776,9 +696,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Release;
 		};
-		73EAC471BD964A8F85B8D779 /* Release */ = {
+		435C9268C7514F439B09808D /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -793,24 +713,14 @@ fi
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
-		};
-		78EC7D9AC925409D9685E458 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
-			};
 			name = RelWithDebInfo;
 		};
-		9CD4957ED70E4E74857A2C9A /* Debug */ = {
+		55B05FDD6C9244758280AAEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -832,7 +742,71 @@ fi
 			};
 			name = Debug;
 		};
-		9D142AADEE134854B3665F42 /* MinSizeRel */ = {
+		7F6746CA950443119791F561 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		884B695E290249FEBDBF602F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
+			};
+			name = Release;
+		};
+		94A7C46C793B4D1D88E3F8A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		94BB3430658A4BAC862C6898 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		95949FB1297140DA8306A74E /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -861,7 +835,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		9F5DF10B455E42CCAD75E8AD /* MinSizeRel */ = {
+		A0200C563CDD4707B8123612 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -876,23 +850,24 @@ fi
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = package;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		A3B6F0CC5DB947009C88A358 /* Debug */ = {
+		A2711DE548224052824B304C /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
 				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
 			};
-			name = Debug;
+			name = MinSizeRel;
 		};
-		A454848C598F4B5CACC061E4 /* RelWithDebInfo */ = {
+		A534647D3BC64C198597E2C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -912,9 +887,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = RelWithDebInfo;
+			name = Release;
 		};
-		AB42D6B32AEB4973BFEFFE12 /* Release */ = {
+		A54DBFE4AE3E43A0BE757695 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -943,115 +918,38 @@ fi
 			};
 			name = Release;
 		};
-		B10C2A66D00A4CE5ABBB31B3 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		B2B78A553F7F41A3ACF93010 /* Release */ = {
+		A9860638F1914BDFB4526390 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
 				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
-			};
-			name = Release;
-		};
-		BA8EFB3CBA0942958C78D6A7 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		CAFF7CC443F840E98DDD6468 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
-			};
-			name = MinSizeRel;
-		};
-		D6A09D6917CD4C90B6E5E92C /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		E9D7E35A141547859483D948 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		F9C5B46340044267A20447C2 /* Debug */ = {
+		B5CD013D09C54AEFA9DF02A0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C7303A7AC1434A55A6443172 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1068,6 +966,108 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C7729EE6BF2543C68A8623DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EAB5CCF6588B4FE19A45BDAF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F1882FC62F28419D92F40DF3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/third-party/moonlight-common-c/enet/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'HAS_FCNTL=1'","'HAS_IOCTL=1'","'HAS_POLL=1'","'HAS_GETNAMEINFO=1'","'HAS_GETADDRINFO=1'","'HAS_INET_PTON=1'","'HAS_INET_NTOP=1'","'HAS_MSGHDR_FLAGS=1'","'HAS_SOCKLEN_T=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG   -Wno-error","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = enet;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/build/enet.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F4D1FE0EDDB64DE696EE3F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/third-party/moonlight-common-c/enet/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'HAS_FCNTL=1'","'HAS_IOCTL=1'","'HAS_POLL=1'","'HAS_GETNAMEINFO=1'","'HAS_GETADDRINFO=1'","'HAS_INET_PTON=1'","'HAS_INET_NTOP=1'","'HAS_MSGHDR_FLAGS=1'","'HAS_SOCKLEN_T=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("     -Wno-error","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = enet;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/third-party/moonlight-common-c/enet/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/build/enet.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
@@ -1076,68 +1076,68 @@ fi
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		326B020681CF488DA39694C7 /* Build configuration list for PBXProject "enet" */ = {
+		00C799307A2C4F4AB32A8201 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3B6F0CC5DB947009C88A358 /* Debug */,
-				B2B78A553F7F41A3ACF93010 /* Release */,
-				CAFF7CC443F840E98DDD6468 /* MinSizeRel */,
-				78EC7D9AC925409D9685E458 /* RelWithDebInfo */,
+				94A7C46C793B4D1D88E3F8A2 /* Debug */,
+				390FF8B5F4CB4E789F557CE3 /* Release */,
+				C7303A7AC1434A55A6443172 /* MinSizeRel */,
+				7F6746CA950443119791F561 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8E731AD809454D62A366901A /* Build configuration list for PBXAggregateTarget "package" */ = {
+		7EE482B00F0B473C8A9113B9 /* Build configuration list for PBXProject "enet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CD4957ED70E4E74857A2C9A /* Debug */,
-				5555AF4AF0CC4E3A8E1E3D61 /* Release */,
-				BA8EFB3CBA0942958C78D6A7 /* MinSizeRel */,
-				3735602989624454B6630B60 /* RelWithDebInfo */,
+				A9860638F1914BDFB4526390 /* Debug */,
+				884B695E290249FEBDBF602F /* Release */,
+				A2711DE548224052824B304C /* MinSizeRel */,
+				94BB3430658A4BAC862C6898 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		940C662BEEF24526857375ED /* Build configuration list for PBXNativeTarget "enet" */ = {
+		A31651244616431682001982 /* Build configuration list for PBXNativeTarget "enet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5156793ED4CC4FB18790097B /* Debug */,
-				AB42D6B32AEB4973BFEFFE12 /* Release */,
-				9D142AADEE134854B3665F42 /* MinSizeRel */,
-				359E995FD9D246F7B3B7FADF /* RelWithDebInfo */,
+				F4D1FE0EDDB64DE696EE3F5E /* Debug */,
+				A54DBFE4AE3E43A0BE757695 /* Release */,
+				95949FB1297140DA8306A74E /* MinSizeRel */,
+				F1882FC62F28419D92F40DF3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D0F6BB377E2E4BE88E64ED5A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		AFD39F71EA164C3FBB2DFBAB /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9C5B46340044267A20447C2 /* Debug */,
-				2F8DEA9F09BD48929FCED7C6 /* Release */,
-				5CD7A7F0934142CA8ACDF5DF /* MinSizeRel */,
-				B10C2A66D00A4CE5ABBB31B3 /* RelWithDebInfo */,
+				55B05FDD6C9244758280AAEF /* Debug */,
+				0839E6E4F63049EB8902DD24 /* Release */,
+				A0200C563CDD4707B8123612 /* MinSizeRel */,
+				2FF699CE982246C5A7A027F1 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E40FAE4DBC2D413A9666957A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		CAE2E79FCB384A1A8475F113 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9D7E35A141547859483D948 /* Debug */,
-				38A3429C40384D1E95BB6833 /* Release */,
-				9F5DF10B455E42CCAD75E8AD /* MinSizeRel */,
-				D6A09D6917CD4C90B6E5E92C /* RelWithDebInfo */,
+				2284D735755E4828914BE371 /* Debug */,
+				A534647D3BC64C198597E2C0 /* Release */,
+				EAB5CCF6588B4FE19A45BDAF /* MinSizeRel */,
+				123115981C204FC591302671 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		FF37D587F5334A55AD6CFC8B /* Build configuration list for PBXAggregateTarget "install" */ = {
+		CDD55FAE0CCF490497096960 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57062AF8965C4E3393D36BAE /* Debug */,
-				73EAC471BD964A8F85B8D779 /* Release */,
-				056535789BBE4C1F829198C2 /* MinSizeRel */,
-				A454848C598F4B5CACC061E4 /* RelWithDebInfo */,
+				1554346FCAD84179A45983BA /* Debug */,
+				C7729EE6BF2543C68A8623DB /* Release */,
+				B5CD013D09C54AEFA9DF02A0 /* MinSizeRel */,
+				435C9268C7514F439B09808D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

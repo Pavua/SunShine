@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		05DA54E260267FCA40EE5EFF /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C6D7B612708640B483055902 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = BC7B2556CE154D44AA83514D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				9DDBAA9DC4C26CCB95726813 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,37 +20,37 @@
 		};
 		5CF28BDCD049370E1A3651AD /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D6B845D3F0794CF692FA4D89 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = B20F39496D1A41D087F17D13 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				70CCA62862D3422EAF6CE456 /* PBXTargetDependency */,
+				13668DAC1A0C4BE887401158 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		D393ED0C9FBE8A975100E39B /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 3DF9BDF84FC8492FBEA219C7 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = 2B56F7866DCC465185AD0DF2 /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				3FCAE3992D5349D582ED4DF8 /* PBXTargetDependency */,
+				ABB3BAC8083040BDAF8E872C /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
 		};
 		E64DF75D644A9717976D8387 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = DC0A7B383C164C12B80A9971 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 77EF4CB1BE584030A2CFAD01 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				3445914EFCCA62A72D1A40D4 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				8AD621BC3AF84709B28979FB /* PBXTargetDependency */,
-				55618EFB045F4C86B339307F /* PBXTargetDependency */,
+				FE9DEEA669724D0DAD8A837B /* PBXTargetDependency */,
+				F753810BB60B4B6080121691 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -58,91 +58,91 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0B4BCAC85EEB4FF0A60D5C40 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer_details.h */ = {isa = PBXBuildFile; fileRef = 4496C85A7D004B49BF214EAC /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer_details.h */; };
-		0FD3090AEAC04E3B92BDADCB /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_manager_interface.h */ = {isa = PBXBuildFile; fileRef = C2A21B47DBD043ABA742A55A /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_manager_interface.h */; };
-		16A48C316CAA47C2A0F6C128 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/logging.cpp */ = {isa = PBXBuildFile; fileRef = F07BEA054A3E4479A3F3CAC9 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/logging.cpp */; };
-		28E44BA8E18D476FAF6F1E7D /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_converter.h */ = {isa = PBXBuildFile; fileRef = DBE9E8C785734C9ABCFEDCA0 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_converter.h */; };
-		2B8D587EC6A941908C49ED18 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_audio_context.cpp */ = {isa = PBXBuildFile; fileRef = 4F40858B4DA6414AB5D10E51 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_audio_context.cpp */; };
-		30D17A52572144FA84BA202E /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_audio_context.h */ = {isa = PBXBuildFile; fileRef = 7845544DA8494767AFDE68D6 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_audio_context.h */; };
-		4C2A8801D5984EF6A4D30EDB /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json_serializer.cpp */ = {isa = PBXBuildFile; fileRef = 72ECE1A49C214535BCBC221A /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json_serializer.cpp */; };
-		503CED37073349CAB119831B /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_settings_persistence.cpp */ = {isa = PBXBuildFile; fileRef = AA8323CF3687468CAA20F400 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_settings_persistence.cpp */; };
-		57E6384FA19B4B2EBE283FF3 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_persistence_interface.h */ = {isa = PBXBuildFile; fileRef = 0652EF2288354A899D830F4F /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_persistence_interface.h */; };
-		5FB0BB4C01AC4CA784F32DEF /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = ECD290BAE3EE48C0847332A1 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/CMakeLists.txt */; };
-		6C855B59333B4DCFAA66E605 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/types.cpp */ = {isa = PBXBuildFile; fileRef = 79FFB3D1A6AC458BB2BC8719 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/types.cpp */; };
-		6D3C28FFDC9F4C6EAFE2BA5C /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/retry_scheduler.cpp */ = {isa = PBXBuildFile; fileRef = 22F4C5FACC084F5BAF23C632 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/retry_scheduler.cpp */; };
-		73B2FDC159624FB7A95381F9 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_settings_persistence.h */ = {isa = PBXBuildFile; fileRef = ADF805F4780347D890E2DD53 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_settings_persistence.h */; };
-		74E5C0A55B4045448FAB264E /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/file_settings_persistence.cpp */ = {isa = PBXBuildFile; fileRef = 35E8CD84E2DD4475907603AA /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/file_settings_persistence.cpp */; };
-		84B3E8F076A14B138CA36590 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/types.h */ = {isa = PBXBuildFile; fileRef = 172F3627066E46FEA857F5E1 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/types.h */; };
-		944D8080B22A46E897F6D605 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/audio_context_interface.h */ = {isa = PBXBuildFile; fileRef = 642E64218D2549798D0ACFB6 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/audio_context_interface.h */; };
-		95A08A4773084A9C839547E7 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/json.h */ = {isa = PBXBuildFile; fileRef = 51A73027270B4FBFBFE33A07 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/json.h */; };
-		9E41EAF5ECBC4015843DD65C /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/retry_scheduler.h */ = {isa = PBXBuildFile; fileRef = D8CEF56861624FF696EB26FB /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/retry_scheduler.h */; };
-		A63DF45C93024790A3312393 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/file_settings_persistence.h */ = {isa = PBXBuildFile; fileRef = 67FDD5DC83004E51AA4646DC /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/file_settings_persistence.h */; };
-		B2C0D92F2DCE4D06BBD3AFB4 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json.cpp */ = {isa = PBXBuildFile; fileRef = AF6D094FD0F341CE923EDFAD /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json.cpp */; };
-		DDA99F647DB946E1AA3FF756 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer.h */ = {isa = PBXBuildFile; fileRef = 4C6DD2473F5C4257A6D691F2 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer.h */; };
-		E874C10A77F84CA68DC84918 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/logging.h */ = {isa = PBXBuildFile; fileRef = 752FEDB04F2B4BE0BE171F32 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/logging.h */; };
+		1CA02DE90FD44BC9B7807F6F /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json.cpp */ = {isa = PBXBuildFile; fileRef = B1DE574F16A84EA1B6C33A1E /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json.cpp */; };
+		2A4B356539E44625B3DACC6D /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_audio_context.cpp */ = {isa = PBXBuildFile; fileRef = 5BC4FAAA3C8B46FEB33052B3 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_audio_context.cpp */; };
+		4AE5850C853A47E4A1B8615B /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/types.cpp */ = {isa = PBXBuildFile; fileRef = 2CEB4CAA11C94B0F9C7521BD /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/types.cpp */; };
+		530CDB6146904BBBAA940B93 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/retry_scheduler.cpp */ = {isa = PBXBuildFile; fileRef = 95E6EFA5B1E940D5988C5C17 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/retry_scheduler.cpp */; };
+		6B4DADF0799340439B06045B /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_persistence_interface.h */ = {isa = PBXBuildFile; fileRef = 1AF82380CD894677A63CBA3A /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_persistence_interface.h */; };
+		7082F6639D4045659AAFC9E2 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/logging.cpp */ = {isa = PBXBuildFile; fileRef = 94EB3A211D244BCEB546664E /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/logging.cpp */; };
+		72362343A306442C9F8AE7B0 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/json.h */ = {isa = PBXBuildFile; fileRef = A243C411CDC24FE6BB107FB4 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/json.h */; };
+		7F070F41A4844F4E99C7CA99 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/file_settings_persistence.cpp */ = {isa = PBXBuildFile; fileRef = 212C8E7D112445329947215D /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/file_settings_persistence.cpp */; };
+		A3759ABBE4FB478CA7FDFD97 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer_details.h */ = {isa = PBXBuildFile; fileRef = 3876D23D3F8B413A9890E2F3 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer_details.h */; };
+		AA66916A15E24178BCD5FB9C /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/retry_scheduler.h */ = {isa = PBXBuildFile; fileRef = 763AE8B7D85E4638A04814FC /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/retry_scheduler.h */; };
+		B53A0D6E77824A349E36D08A /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 18AD955A9FA74844A6DE3761 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/CMakeLists.txt */; };
+		C3E34755C0224F4DB9131A92 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_settings_persistence.cpp */ = {isa = PBXBuildFile; fileRef = 46EA30B9FB8D4096B966F1C2 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_settings_persistence.cpp */; };
+		C43B852159BB4BC2B2B82FE1 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_settings_persistence.h */ = {isa = PBXBuildFile; fileRef = E804A64EC50C48B6A0AD6936 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_settings_persistence.h */; };
+		C69EA3A6E1B74A138CB59491 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/file_settings_persistence.h */ = {isa = PBXBuildFile; fileRef = 9CA667263C284C6F8DC27D5C /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/file_settings_persistence.h */; };
+		CF3A0E27C15B421E9890D75A /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_manager_interface.h */ = {isa = PBXBuildFile; fileRef = D773F2B8FDD64933B7957FE1 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_manager_interface.h */; };
+		D38F0C80EF5E4C538241BB64 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/types.h */ = {isa = PBXBuildFile; fileRef = FB5D61326BA3479CB8E01A99 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/types.h */; };
+		DE3728F95665460F99E1D440 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/audio_context_interface.h */ = {isa = PBXBuildFile; fileRef = 7EAB007323A84B399EA6A3DA /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/audio_context_interface.h */; };
+		F1686B61D9F744C69D214B33 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json_serializer.cpp */ = {isa = PBXBuildFile; fileRef = 37839ACFEDA646908F3CBD99 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json_serializer.cpp */; };
+		F35BCE2C5EF2473BB5D70421 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_audio_context.h */ = {isa = PBXBuildFile; fileRef = E79F18B1F7D348B2859FA4D5 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_audio_context.h */; };
+		F4434F1FA3AE4DE8BBBC96FB /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/logging.h */ = {isa = PBXBuildFile; fileRef = 11FF38345EE8443E87615255 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/logging.h */; };
+		F6505C6F36AD4E8C9176B7E0 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_converter.h */ = {isa = PBXBuildFile; fileRef = 3F329BBEFDEE4D80B05E9D20 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_converter.h */; };
+		FE0A472B16B04ECD92F6BA49 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer.h */ = {isa = PBXBuildFile; fileRef = 9531AD1B33CB456A94F2F662 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		AE28F928560E433EB0E69A9B /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		D70FFDF84BCA4F60859F4033 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		E399A4FE7B8F4AC8BD2AA402 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		F306AC05CA1341DF863C1517 /* Release */ = {
+		73DF4DD32329463283541C06 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		9E45DCE8650B4C8885C036E4 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D9C90B2A134C4B7F82AD452A /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F89F897E548741B784E6BE0D /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		4546A539868E41D6A871518D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7B84EB736AC425C86F04D4B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E64DF75D644A9717976D8387;
-			remoteInfo = ALL_BUILD;
-		};
-		6CA57B286C044653AAC81C22 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7B84EB736AC425C86F04D4B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E64DF75D644A9717976D8387;
-			remoteInfo = ALL_BUILD;
-		};
-		B6D57624CB754755AD810F7E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7B84EB736AC425C86F04D4B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F8CB9332B2944ADF82DC716C;
-			remoteInfo = libdisplaydevice_common;
-		};
-		C2588F454F4C462BB7814532 /* PBXContainerItemProxy */ = {
+		2430E1D83D1C48EBA3C201E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7B84EB736AC425C86F04D4B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 05DA54E260267FCA40EE5EFF;
 			remoteInfo = ZERO_CHECK;
 		};
-		F96E7249D3B743B4ADDF6480 /* PBXContainerItemProxy */ = {
+		4109CF1CD830450DAD07C27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B84EB736AC425C86F04D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E64DF75D644A9717976D8387;
+			remoteInfo = ALL_BUILD;
+		};
+		828463D094D24148977A1B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B84EB736AC425C86F04D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8CB9332B2944ADF82DC716C;
+			remoteInfo = libdisplaydevice_common;
+		};
+		9349A5189367401E882A0F8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B84EB736AC425C86F04D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E64DF75D644A9717976D8387;
+			remoteInfo = ALL_BUILD;
+		};
+		AAF4EEAFED344BB7A1276D5E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7B84EB736AC425C86F04D4B /* Project object */;
 			proxyType = 1;
@@ -152,34 +152,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0652EF2288354A899D830F4F /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_persistence_interface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = settings_persistence_interface.h; path = src/common/include/display_device/settings_persistence_interface.h; sourceTree = SOURCE_ROOT; };
-		172F3627066E46FEA857F5E1 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types.h; path = src/common/include/display_device/types.h; sourceTree = SOURCE_ROOT; };
-		22F4C5FACC084F5BAF23C632 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/retry_scheduler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = retry_scheduler.cpp; path = src/common/retry_scheduler.cpp; sourceTree = SOURCE_ROOT; };
-		35E8CD84E2DD4475907603AA /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/file_settings_persistence.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = file_settings_persistence.cpp; path = src/common/file_settings_persistence.cpp; sourceTree = SOURCE_ROOT; };
-		4496C85A7D004B49BF214EAC /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer_details.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = json_serializer_details.h; path = src/common/include/display_device/detail/json_serializer_details.h; sourceTree = SOURCE_ROOT; };
-		4C6DD2473F5C4257A6D691F2 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = json_serializer.h; path = src/common/include/display_device/detail/json_serializer.h; sourceTree = SOURCE_ROOT; };
-		4F40858B4DA6414AB5D10E51 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_audio_context.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = noop_audio_context.cpp; path = src/common/noop_audio_context.cpp; sourceTree = SOURCE_ROOT; };
-		51A73027270B4FBFBFE33A07 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/json.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = json.h; path = src/common/include/display_device/json.h; sourceTree = SOURCE_ROOT; };
-		642E64218D2549798D0ACFB6 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/audio_context_interface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = audio_context_interface.h; path = src/common/include/display_device/audio_context_interface.h; sourceTree = SOURCE_ROOT; };
-		67FDD5DC83004E51AA4646DC /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/file_settings_persistence.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = file_settings_persistence.h; path = src/common/include/display_device/file_settings_persistence.h; sourceTree = SOURCE_ROOT; };
-		72ECE1A49C214535BCBC221A /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json_serializer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_serializer.cpp; path = src/common/json_serializer.cpp; sourceTree = SOURCE_ROOT; };
-		752FEDB04F2B4BE0BE171F32 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/logging.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logging.h; path = src/common/include/display_device/logging.h; sourceTree = SOURCE_ROOT; };
-		7845544DA8494767AFDE68D6 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_audio_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = noop_audio_context.h; path = src/common/include/display_device/noop_audio_context.h; sourceTree = SOURCE_ROOT; };
-		79FFB3D1A6AC458BB2BC8719 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/types.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = types.cpp; path = src/common/types.cpp; sourceTree = SOURCE_ROOT; };
-		7A68BD98E8C44C4488392D54 /* libdisplaydevice_common */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibdisplaydevice_common.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA8323CF3687468CAA20F400 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_settings_persistence.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = noop_settings_persistence.cpp; path = src/common/noop_settings_persistence.cpp; sourceTree = SOURCE_ROOT; };
-		ADF805F4780347D890E2DD53 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_settings_persistence.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = noop_settings_persistence.h; path = src/common/include/display_device/noop_settings_persistence.h; sourceTree = SOURCE_ROOT; };
-		AF6D094FD0F341CE923EDFAD /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json.cpp; path = src/common/json.cpp; sourceTree = SOURCE_ROOT; };
-		AF8B7B7A73E344BF8CCA2B1E /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		C2A21B47DBD043ABA742A55A /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_manager_interface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = settings_manager_interface.h; path = src/common/include/display_device/settings_manager_interface.h; sourceTree = SOURCE_ROOT; };
-		D8CEF56861624FF696EB26FB /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/retry_scheduler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = retry_scheduler.h; path = src/common/include/display_device/retry_scheduler.h; sourceTree = SOURCE_ROOT; };
-		DBE9E8C785734C9ABCFEDCA0 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_converter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = json_converter.h; path = src/common/include/display_device/detail/json_converter.h; sourceTree = SOURCE_ROOT; };
-		ECD290BAE3EE48C0847332A1 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/common/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		F07BEA054A3E4479A3F3CAC9 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/logging.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logging.cpp; path = src/common/logging.cpp; sourceTree = SOURCE_ROOT; };
+		11FF38345EE8443E87615255 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/logging.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logging.h; path = src/common/include/display_device/logging.h; sourceTree = SOURCE_ROOT; };
+		18AD955A9FA74844A6DE3761 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/common/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1AF82380CD894677A63CBA3A /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_persistence_interface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = settings_persistence_interface.h; path = src/common/include/display_device/settings_persistence_interface.h; sourceTree = SOURCE_ROOT; };
+		212C8E7D112445329947215D /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/file_settings_persistence.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = file_settings_persistence.cpp; path = src/common/file_settings_persistence.cpp; sourceTree = SOURCE_ROOT; };
+		2CEB4CAA11C94B0F9C7521BD /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/types.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = types.cpp; path = src/common/types.cpp; sourceTree = SOURCE_ROOT; };
+		37839ACFEDA646908F3CBD99 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json_serializer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_serializer.cpp; path = src/common/json_serializer.cpp; sourceTree = SOURCE_ROOT; };
+		3876D23D3F8B413A9890E2F3 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer_details.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = json_serializer_details.h; path = src/common/include/display_device/detail/json_serializer_details.h; sourceTree = SOURCE_ROOT; };
+		3F329BBEFDEE4D80B05E9D20 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_converter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = json_converter.h; path = src/common/include/display_device/detail/json_converter.h; sourceTree = SOURCE_ROOT; };
+		46EA30B9FB8D4096B966F1C2 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_settings_persistence.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = noop_settings_persistence.cpp; path = src/common/noop_settings_persistence.cpp; sourceTree = SOURCE_ROOT; };
+		5BC4FAAA3C8B46FEB33052B3 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_audio_context.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = noop_audio_context.cpp; path = src/common/noop_audio_context.cpp; sourceTree = SOURCE_ROOT; };
+		66DA25B6DAE44E6DA4DB89C9 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		763AE8B7D85E4638A04814FC /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/retry_scheduler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = retry_scheduler.h; path = src/common/include/display_device/retry_scheduler.h; sourceTree = SOURCE_ROOT; };
+		7EAB007323A84B399EA6A3DA /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/audio_context_interface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = audio_context_interface.h; path = src/common/include/display_device/audio_context_interface.h; sourceTree = SOURCE_ROOT; };
+		94EB3A211D244BCEB546664E /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/logging.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logging.cpp; path = src/common/logging.cpp; sourceTree = SOURCE_ROOT; };
+		9531AD1B33CB456A94F2F662 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = json_serializer.h; path = src/common/include/display_device/detail/json_serializer.h; sourceTree = SOURCE_ROOT; };
+		95E6EFA5B1E940D5988C5C17 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/retry_scheduler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = retry_scheduler.cpp; path = src/common/retry_scheduler.cpp; sourceTree = SOURCE_ROOT; };
+		9CA667263C284C6F8DC27D5C /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/file_settings_persistence.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = file_settings_persistence.h; path = src/common/include/display_device/file_settings_persistence.h; sourceTree = SOURCE_ROOT; };
+		A243C411CDC24FE6BB107FB4 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/json.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = json.h; path = src/common/include/display_device/json.h; sourceTree = SOURCE_ROOT; };
+		B1DE574F16A84EA1B6C33A1E /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json.cpp; path = src/common/json.cpp; sourceTree = SOURCE_ROOT; };
+		D773F2B8FDD64933B7957FE1 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_manager_interface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = settings_manager_interface.h; path = src/common/include/display_device/settings_manager_interface.h; sourceTree = SOURCE_ROOT; };
+		E79F18B1F7D348B2859FA4D5 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_audio_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = noop_audio_context.h; path = src/common/include/display_device/noop_audio_context.h; sourceTree = SOURCE_ROOT; };
+		E804A64EC50C48B6A0AD6936 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_settings_persistence.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = noop_settings_persistence.h; path = src/common/include/display_device/noop_settings_persistence.h; sourceTree = SOURCE_ROOT; };
+		FB5D61326BA3479CB8E01A99 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types.h; path = src/common/include/display_device/types.h; sourceTree = SOURCE_ROOT; };
+		FF162049A48E4D1780DD043D /* libdisplaydevice_common */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibdisplaydevice_common.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		43A505334F1447EBA98A1D12 /* Frameworks */ = {
+		C303110C6E5E42509E4C373A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,98 +189,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2CDE1A84BEAF4E2798AC5E64 /* libdisplaydevice_common */ = {
+		217FD462B2274BECAA9FCBDE = {
 			isa = PBXGroup;
 			children = (
-				61A13C82104249C0AEADC20C /* Header Files */,
-				8E9FBD355BD641B989210A2E /* Source Files */,
-				ECD290BAE3EE48C0847332A1 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/CMakeLists.txt */,
+				DFB0356DD1BA4866B5D0A83A /* ALL_BUILD */,
+				E3684F7E0E8B4784B5855426 /* libdisplaydevice_common */,
+				96A5703CF86946BB94919013 /* Products */,
+				4C820BCDDD164297BDDEC389 /* Frameworks */,
+				D3B10863867E4E66A00781A0 /* Resources */,
 			);
-			name = libdisplaydevice_common;
 			sourceTree = "<group>";
 		};
-		3C1C3F0519354CA383E504BB /* CMake Rules */ = {
+		2843765D660E49EE8C3C78CC /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
+				212C8E7D112445329947215D /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/file_settings_persistence.cpp */,
+				B1DE574F16A84EA1B6C33A1E /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json.cpp */,
+				37839ACFEDA646908F3CBD99 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json_serializer.cpp */,
+				94EB3A211D244BCEB546664E /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/logging.cpp */,
+				5BC4FAAA3C8B46FEB33052B3 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_audio_context.cpp */,
+				46EA30B9FB8D4096B966F1C2 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_settings_persistence.cpp */,
+				95E6EFA5B1E940D5988C5C17 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/retry_scheduler.cpp */,
+				2CEB4CAA11C94B0F9C7521BD /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/types.cpp */,
 			);
-			name = "CMake Rules";
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		61A13C82104249C0AEADC20C /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				642E64218D2549798D0ACFB6 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/audio_context_interface.h */,
-				DBE9E8C785734C9ABCFEDCA0 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_converter.h */,
-				4C6DD2473F5C4257A6D691F2 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer.h */,
-				4496C85A7D004B49BF214EAC /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer_details.h */,
-				67FDD5DC83004E51AA4646DC /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/file_settings_persistence.h */,
-				51A73027270B4FBFBFE33A07 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/json.h */,
-				752FEDB04F2B4BE0BE171F32 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/logging.h */,
-				7845544DA8494767AFDE68D6 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_audio_context.h */,
-				ADF805F4780347D890E2DD53 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_settings_persistence.h */,
-				D8CEF56861624FF696EB26FB /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/retry_scheduler.h */,
-				C2A21B47DBD043ABA742A55A /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_manager_interface.h */,
-				0652EF2288354A899D830F4F /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_persistence_interface.h */,
-				172F3627066E46FEA857F5E1 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/types.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		64287C6F652C4441B918D1B4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		68570D491B32441693650DB0 /* Frameworks */ = {
+		4C820BCDDD164297BDDEC389 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8E9FBD355BD641B989210A2E /* Source Files */ = {
+		89D7D680849340BC95EC986F /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				35E8CD84E2DD4475907603AA /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/file_settings_persistence.cpp */,
-				AF6D094FD0F341CE923EDFAD /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json.cpp */,
-				72ECE1A49C214535BCBC221A /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json_serializer.cpp */,
-				F07BEA054A3E4479A3F3CAC9 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/logging.cpp */,
-				4F40858B4DA6414AB5D10E51 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_audio_context.cpp */,
-				AA8323CF3687468CAA20F400 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_settings_persistence.cpp */,
-				22F4C5FACC084F5BAF23C632 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/retry_scheduler.cpp */,
-				79FFB3D1A6AC458BB2BC8719 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/types.cpp */,
+				7EAB007323A84B399EA6A3DA /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/audio_context_interface.h */,
+				3F329BBEFDEE4D80B05E9D20 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_converter.h */,
+				9531AD1B33CB456A94F2F662 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer.h */,
+				3876D23D3F8B413A9890E2F3 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/detail/json_serializer_details.h */,
+				9CA667263C284C6F8DC27D5C /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/file_settings_persistence.h */,
+				A243C411CDC24FE6BB107FB4 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/json.h */,
+				11FF38345EE8443E87615255 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/logging.h */,
+				E79F18B1F7D348B2859FA4D5 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_audio_context.h */,
+				E804A64EC50C48B6A0AD6936 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/noop_settings_persistence.h */,
+				763AE8B7D85E4638A04814FC /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/retry_scheduler.h */,
+				D773F2B8FDD64933B7957FE1 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_manager_interface.h */,
+				1AF82380CD894677A63CBA3A /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/settings_persistence_interface.h */,
+				FB5D61326BA3479CB8E01A99 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include/display_device/types.h */,
 			);
-			name = "Source Files";
+			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		9B4A640C61F8439A8D495AEC = {
+		96A5703CF86946BB94919013 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8035771189F481C8933A58E /* ALL_BUILD */,
-				2CDE1A84BEAF4E2798AC5E64 /* libdisplaydevice_common */,
-				F350B0FBF7154C1F8281F1B5 /* Products */,
-				68570D491B32441693650DB0 /* Frameworks */,
-				64287C6F652C4441B918D1B4 /* Resources */,
+				FF162049A48E4D1780DD043D /* libdisplaydevice_common */,
 			);
+			name = Products;
 			sourceTree = "<group>";
 		};
-		D8035771189F481C8933A58E /* ALL_BUILD */ = {
+		B34401B8136F4442AC9D3A46 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				3C1C3F0519354CA383E504BB /* CMake Rules */,
-				AF8B7B7A73E344BF8CCA2B1E /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/CMakeLists.txt */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D3B10863867E4E66A00781A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DFB0356DD1BA4866B5D0A83A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B34401B8136F4442AC9D3A46 /* CMake Rules */,
+				66DA25B6DAE44E6DA4DB89C9 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		F350B0FBF7154C1F8281F1B5 /* Products */ = {
+		E3684F7E0E8B4784B5855426 /* libdisplaydevice_common */ = {
 			isa = PBXGroup;
 			children = (
-				7A68BD98E8C44C4488392D54 /* libdisplaydevice_common */,
+				89D7D680849340BC95EC986F /* Header Files */,
+				2843765D660E49EE8C3C78CC /* Source Files */,
+				18AD955A9FA74844A6DE3761 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/CMakeLists.txt */,
 			);
-			name = Products;
+			name = libdisplaydevice_common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,19 +288,19 @@
 /* Begin PBXNativeTarget section */
 		F8CB9332B2944ADF82DC716C /* libdisplaydevice_common */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B5F4C112E954614892643D7 /* Build configuration list for PBXNativeTarget "libdisplaydevice_common" */;
+			buildConfigurationList = 000954050FC348A29D5DE67E /* Build configuration list for PBXNativeTarget "libdisplaydevice_common" */;
 			buildPhases = (
-				7301B4985BFD4B739962EDF9 /* Sources */,
-				43A505334F1447EBA98A1D12 /* Frameworks */,
+				DA67E5D6B6A649169C36B7F1 /* Sources */,
+				C303110C6E5E42509E4C373A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4037D12471044B749A69E2CD /* PBXTargetDependency */,
+				275428EEC6174D4D9B904852 /* PBXTargetDependency */,
 			);
 			name = libdisplaydevice_common;
 			productName = libdisplaydevice_common;
-			productReference = 7A68BD98E8C44C4488392D54 /* libdisplaydevice_common */;
+			productReference = FF162049A48E4D1780DD043D /* libdisplaydevice_common */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -312,18 +312,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1640;
 			};
-			buildConfigurationList = 7540941B9F41400AA6DBD390 /* Build configuration list for PBXProject "libdisplaydevice" */;
+			buildConfigurationList = 88A29498CD784863B20C69D3 /* Build configuration list for PBXProject "libdisplaydevice" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				E399A4FE7B8F4AC8BD2AA402 /* Debug */,
-				F306AC05CA1341DF863C1517 /* Release */,
-				AE28F928560E433EB0E69A9B /* MinSizeRel */,
-				D70FFDF84BCA4F60859F4033 /* RelWithDebInfo */,
+				D9C90B2A134C4B7F82AD452A /* Debug */,
+				73DF4DD32329463283541C06 /* Release */,
+				F89F897E548741B784E6BE0D /* MinSizeRel */,
+				9E45DCE8650B4C8885C036E4 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 9B4A640C61F8439A8D495AEC;
+			mainGroup = 217FD462B2274BECAA9FCBDE;
 			projectDirPath = "/Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice";
 			projectRoot = "";
 			targets = (
@@ -528,93 +528,53 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7301B4985BFD4B739962EDF9 /* Sources */ = {
+		DA67E5D6B6A649169C36B7F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74E5C0A55B4045448FAB264E /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/file_settings_persistence.cpp */,
-				B2C0D92F2DCE4D06BBD3AFB4 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json.cpp */,
-				4C2A8801D5984EF6A4D30EDB /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json_serializer.cpp */,
-				16A48C316CAA47C2A0F6C128 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/logging.cpp */,
-				2B8D587EC6A941908C49ED18 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_audio_context.cpp */,
-				503CED37073349CAB119831B /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_settings_persistence.cpp */,
-				6D3C28FFDC9F4C6EAFE2BA5C /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/retry_scheduler.cpp */,
-				6C855B59333B4DCFAA66E605 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/types.cpp */,
+				7F070F41A4844F4E99C7CA99 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/file_settings_persistence.cpp */,
+				1CA02DE90FD44BC9B7807F6F /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json.cpp */,
+				F1686B61D9F744C69D214B33 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/json_serializer.cpp */,
+				7082F6639D4045659AAFC9E2 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/logging.cpp */,
+				2A4B356539E44625B3DACC6D /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_audio_context.cpp */,
+				C3E34755C0224F4DB9131A92 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/noop_settings_persistence.cpp */,
+				530CDB6146904BBBAA940B93 /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/retry_scheduler.cpp */,
+				4AE5850C853A47E4A1B8615B /* /Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/types.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3FCAE3992D5349D582ED4DF8 /* PBXTargetDependency */ = {
+		13668DAC1A0C4BE887401158 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E64DF75D644A9717976D8387 /* ALL_BUILD */;
-			targetProxy = 4546A539868E41D6A871518D /* PBXContainerItemProxy */;
+			targetProxy = 4109CF1CD830450DAD07C27A /* PBXContainerItemProxy */;
 		};
-		4037D12471044B749A69E2CD /* PBXTargetDependency */ = {
+		275428EEC6174D4D9B904852 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 05DA54E260267FCA40EE5EFF /* ZERO_CHECK */;
-			targetProxy = C2588F454F4C462BB7814532 /* PBXContainerItemProxy */;
+			targetProxy = 2430E1D83D1C48EBA3C201E9 /* PBXContainerItemProxy */;
 		};
-		55618EFB045F4C86B339307F /* PBXTargetDependency */ = {
+		ABB3BAC8083040BDAF8E872C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E64DF75D644A9717976D8387 /* ALL_BUILD */;
+			targetProxy = 9349A5189367401E882A0F8F /* PBXContainerItemProxy */;
+		};
+		F753810BB60B4B6080121691 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F8CB9332B2944ADF82DC716C /* libdisplaydevice_common */;
-			targetProxy = B6D57624CB754755AD810F7E /* PBXContainerItemProxy */;
+			targetProxy = 828463D094D24148977A1B28 /* PBXContainerItemProxy */;
 		};
-		70CCA62862D3422EAF6CE456 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E64DF75D644A9717976D8387 /* ALL_BUILD */;
-			targetProxy = 6CA57B286C044653AAC81C22 /* PBXContainerItemProxy */;
-		};
-		8AD621BC3AF84709B28979FB /* PBXTargetDependency */ = {
+		FE9DEEA669724D0DAD8A837B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 05DA54E260267FCA40EE5EFF /* ZERO_CHECK */;
-			targetProxy = F96E7249D3B743B4ADDF6480 /* PBXContainerItemProxy */;
+			targetProxy = AAF4EEAFED344BB7A1276D5E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		083B56FD199541D18B4DED7E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/third-party/libdisplaydevice/src/common/Release";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = libdisplaydevice_common;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/build/libdisplaydevice_common.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		1F90E37DB44C4E75A667843D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
-			};
-			name = Release;
-		};
-		282FE95E128B48F09289A75D /* MinSizeRel */ = {
+		024F8BAC866A4B179FC60B52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -634,9 +594,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Debug;
 		};
-		36DC72EF36424F3BB0D948A1 /* RelWithDebInfo */ = {
+		04698C6097964E469B51105D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -651,88 +611,14 @@ fi
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		5EEBF797D5514FD1B6AD581B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = package;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		71F89C849539418BA7A59505 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/third-party/libdisplaydevice/src/common/MinSizeRel";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = libdisplaydevice_common;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/build/libdisplaydevice_common.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		757D724128D346CA9F988E19 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		7A1E67E925734EEF8EE57596 /* MinSizeRel */ = {
+		0BDC845A9B0E4E70B99AD642 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -754,37 +640,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		89BB599CE5CF49DEBE61D37C /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/third-party/libdisplaydevice/src/common/RelWithDebInfo";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++20' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = libdisplaydevice_common;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/build/libdisplaydevice_common.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		8D5BBB6B144349C3A137CD40 /* MinSizeRel */ = {
+		139F198982BB4D0EA7A273A7 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -799,197 +655,14 @@ fi
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		A10E86C8976C45A99C48D82A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		B6B5CF88EE104E8D920F6CB9 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
-			};
-			name = MinSizeRel;
-		};
-		B71CEB5E3F0E4D36B2C4DB5C /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		BB7B75A7BCF34FC686BD24CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		BC928F1DF47249B98478ABFD /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
-			};
-			name = RelWithDebInfo;
-		};
-		C01F151F90514CC097826A57 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
-			};
-			name = Debug;
-		};
-		CA9DBE32126A47B9AADE8048 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		D0F6AACE3BB44A6DAA52AAB3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		D2C72513A25C4CF2801E997A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		D6A5A59C0F1E471D8C9AC004 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		EB790A3A3D0646A6A65562A3 /* Debug */ = {
+		2800540FDCF44B699AACE889 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1019,7 +692,37 @@ fi
 			};
 			name = Debug;
 		};
-		FAA0B847A2BC4DD2B2A86336 /* MinSizeRel */ = {
+		2EBBE9C1066C4C01A138E795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/third-party/libdisplaydevice/src/common/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libdisplaydevice_common;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/build/libdisplaydevice_common.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		353E177B661C439AABF5F0AC /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1039,9 +742,39 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
+			name = RelWithDebInfo;
+		};
+		3FE2D1F25A5E4DE5BA7FF9FE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/third-party/libdisplaydevice/src/common/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libdisplaydevice_common;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/build/libdisplaydevice_common.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
 			name = MinSizeRel;
 		};
-		FCA1E72EF1A64211BA960B81 /* Release */ = {
+		40A42685D8AB45E2A751F5B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1063,7 +796,70 @@ fi
 			};
 			name = Release;
 		};
-		FE2C4B5A4A1446428F0A05CD /* Release */ = {
+		50CE298663974C2E8DC14500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
+			};
+			name = Release;
+		};
+		5960A4F05C64419A9E61D071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5A11D56623AD4BE2A681D8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		66BF1E6B29364D29A4AF432A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
+			};
+			name = Debug;
+		};
+		78787089DBD54CE6BB56901C /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1083,73 +879,277 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
+			name = RelWithDebInfo;
+		};
+		797FFCCD7E8141909F187E75 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7B1E77B970144C5E919770B3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/third-party/libdisplaydevice/src/common/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pablito/SunShine/Sunshine/third-party/libdisplaydevice/src/common/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++20' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libdisplaydevice_common;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/pablito/SunShine/Sunshine/build_xcode/build/libdisplaydevice_common.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		85F75924996C4AC4A0205F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8C848571E326494AA01D608F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8E044C96F83548CFBFCD990B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		944FACC78C7245838DDE2ECC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A6F7006FF2344BB688EA8F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B88DA3B381EF472B87FE5C5A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		C3FF6D2F8B914432AE412B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
 			name = Release;
+		};
+		C65FDBCFE6F44F05B1BCB318 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
+			};
+			name = MinSizeRel;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B5F4C112E954614892643D7 /* Build configuration list for PBXNativeTarget "libdisplaydevice_common" */ = {
+		000954050FC348A29D5DE67E /* Build configuration list for PBXNativeTarget "libdisplaydevice_common" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB790A3A3D0646A6A65562A3 /* Debug */,
-				083B56FD199541D18B4DED7E /* Release */,
-				71F89C849539418BA7A59505 /* MinSizeRel */,
-				89BB599CE5CF49DEBE61D37C /* RelWithDebInfo */,
+				2800540FDCF44B699AACE889 /* Debug */,
+				2EBBE9C1066C4C01A138E795 /* Release */,
+				3FE2D1F25A5E4DE5BA7FF9FE /* MinSizeRel */,
+				7B1E77B970144C5E919770B3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		3DF9BDF84FC8492FBEA219C7 /* Build configuration list for PBXAggregateTarget "package" */ = {
+		2B56F7866DCC465185AD0DF2 /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A10E86C8976C45A99C48D82A /* Debug */,
-				FE2C4B5A4A1446428F0A05CD /* Release */,
-				8D5BBB6B144349C3A137CD40 /* MinSizeRel */,
-				B71CEB5E3F0E4D36B2C4DB5C /* RelWithDebInfo */,
+				85F75924996C4AC4A0205F0A /* Debug */,
+				04698C6097964E469B51105D /* Release */,
+				8E044C96F83548CFBFCD990B /* MinSizeRel */,
+				78787089DBD54CE6BB56901C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7540941B9F41400AA6DBD390 /* Build configuration list for PBXProject "libdisplaydevice" */ = {
+		77EF4CB1BE584030A2CFAD01 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C01F151F90514CC097826A57 /* Debug */,
-				1F90E37DB44C4E75A667843D /* Release */,
-				B6B5CF88EE104E8D920F6CB9 /* MinSizeRel */,
-				BC928F1DF47249B98478ABFD /* RelWithDebInfo */,
+				5A11D56623AD4BE2A681D8B9 /* Debug */,
+				5960A4F05C64419A9E61D071 /* Release */,
+				139F198982BB4D0EA7A273A7 /* MinSizeRel */,
+				353E177B661C439AABF5F0AC /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C6D7B612708640B483055902 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		88A29498CD784863B20C69D3 /* Build configuration list for PBXProject "libdisplaydevice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB7B75A7BCF34FC686BD24CA /* Debug */,
-				D0F6AACE3BB44A6DAA52AAB3 /* Release */,
-				282FE95E128B48F09289A75D /* MinSizeRel */,
-				D6A5A59C0F1E471D8C9AC004 /* RelWithDebInfo */,
+				66BF1E6B29364D29A4AF432A /* Debug */,
+				50CE298663974C2E8DC14500 /* Release */,
+				C65FDBCFE6F44F05B1BCB318 /* MinSizeRel */,
+				B88DA3B381EF472B87FE5C5A /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D6B845D3F0794CF692FA4D89 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		B20F39496D1A41D087F17D13 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2C72513A25C4CF2801E997A /* Debug */,
-				FCA1E72EF1A64211BA960B81 /* Release */,
-				7A1E67E925734EEF8EE57596 /* MinSizeRel */,
-				CA9DBE32126A47B9AADE8048 /* RelWithDebInfo */,
+				A6F7006FF2344BB688EA8F85 /* Debug */,
+				40A42685D8AB45E2A751F5B0 /* Release */,
+				0BDC845A9B0E4E70B99AD642 /* MinSizeRel */,
+				944FACC78C7245838DDE2ECC /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		DC0A7B383C164C12B80A9971 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		BC7B2556CE154D44AA83514D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				757D724128D346CA9F988E19 /* Debug */,
-				5EEBF797D5514FD1B6AD581B /* Release */,
-				FAA0B847A2BC4DD2B2A86336 /* MinSizeRel */,
-				36DC72EF36424F3BB0D948A1 /* RelWithDebInfo */,
+				024F8BAC866A4B179FC60B52 /* Debug */,
+				C3FF6D2F8B914432AE412B3C /* Release */,
+				8C848571E326494AA01D608F /* MinSizeRel */,
+				797FFCCD7E8141909F187E75 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

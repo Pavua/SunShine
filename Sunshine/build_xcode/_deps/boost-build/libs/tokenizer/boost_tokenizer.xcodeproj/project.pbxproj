@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		05DA54E260267FCA40EE5EFF /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 5A49825309434897B410B1FD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = EC9A54827D674CEAA440C9C7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				5FDA35F1DF3321D4F1985289 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,36 +20,36 @@
 		};
 		5CF28BDCD049370E1A3651AD /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = B11F8F51587C403CA42EE186 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = A9E28FBC72384EB4B562C2DC /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				A39E2D86182E46028CF3ABF1 /* PBXTargetDependency */,
+				A5769266C9DA445488FCA54A /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		D393ED0C9FBE8A975100E39B /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 96EB05D65820451E9CE48B57 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = 58C5E556132B4612A2DF34BF /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				9ECBF95E99CE49A6BF50DBF7 /* PBXTargetDependency */,
+				92CDDC770A70467B8801989F /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
 		};
 		E64DF75D644A9717976D8387 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = DD61971316B142D387ECEFB2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = CF1500E4D7214EEE900D093F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				E8DA7CDF608C02A25ECA2EAF /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				3DEAAB60749B465CB65C7C56 /* PBXTargetDependency */,
+				8627FE0F99124EA4BD60C261 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -57,28 +57,28 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildStyle section */
-		22261D125A514347825B13F4 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		5A24054DFB714790945EC5D7 /* Release */ = {
+		09AE291AB52B4A9FB1DE4C9A /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		61437F30CAFD4779A2B5C5E3 /* MinSizeRel */ = {
+		3ABCD033F626474194F03A72 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		3B9E0D0C88EC464892159109 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
-		8F98C1DFCF0B41308047B6E8 /* RelWithDebInfo */ = {
+		662C5D95E927438198BC67BF /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -88,21 +88,21 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		59BE14066B714BB08B42CAB4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1129F6A6FEC4607933583AB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E64DF75D644A9717976D8387;
-			remoteInfo = ALL_BUILD;
-		};
-		72D6F8E5EA7940F3B644F4B2 /* PBXContainerItemProxy */ = {
+		03AA2332A24849E8BD05A333 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A1129F6A6FEC4607933583AB /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 05DA54E260267FCA40EE5EFF;
 			remoteInfo = ZERO_CHECK;
 		};
-		9A200A9D8ACE4FD3A0E73602 /* PBXContainerItemProxy */ = {
+		5EE74E80C9F243399B2B260B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1129F6A6FEC4607933583AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E64DF75D644A9717976D8387;
+			remoteInfo = ALL_BUILD;
+		};
+		A461345D95FC4D3B8F144FA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A1129F6A6FEC4607933583AB /* Project object */;
 			proxyType = 1;
@@ -112,55 +112,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A363A42578D943FBBA22963B /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/tokenizer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EBDFCD88277B458AB945E455 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/tokenizer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		002E422C5B0F4E6FA3C22592 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5CAFBFD1BF6A4F7483E5DF38 = {
-			isa = PBXGroup;
-			children = (
-				B62B0D94766D46BD8655C9A7 /* ALL_BUILD */,
-				EA952481B9AD4462BEB5C09A /* Products */,
-				002E422C5B0F4E6FA3C22592 /* Frameworks */,
-				B63766254ADF4204AF7CE3D0 /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		B62B0D94766D46BD8655C9A7 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				DAA8C18E890240FB9AE085B6 /* CMake Rules */,
-				A363A42578D943FBBA22963B /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/tokenizer/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		B63766254ADF4204AF7CE3D0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		DAA8C18E890240FB9AE085B6 /* CMake Rules */ = {
+		3E2F23445AB4456A99AA9123 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		EA952481B9AD4462BEB5C09A /* Products */ = {
+		793B0F008EEE43A6A5251BDF = {
+			isa = PBXGroup;
+			children = (
+				D6BC7A6C92184EA18991CE22 /* ALL_BUILD */,
+				C433C6DF5124497EBA4D4334 /* Products */,
+				C73C4378FBDE4792A5F6C088 /* Frameworks */,
+				9EB732A6F30C4BD1AB241354 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		9EB732A6F30C4BD1AB241354 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C433C6DF5124497EBA4D4334 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C73C4378FBDE4792A5F6C088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6BC7A6C92184EA18991CE22 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3E2F23445AB4456A99AA9123 /* CMake Rules */,
+				EBDFCD88277B458AB945E455 /* /Users/pablito/SunShine/Sunshine/build_xcode/_deps/boost-src/libs/tokenizer/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,18 +172,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1640;
 			};
-			buildConfigurationList = 322C500B171B4E70A6AF6306 /* Build configuration list for PBXProject "boost_tokenizer" */;
+			buildConfigurationList = 2024822797C044AFB59F4961 /* Build configuration list for PBXProject "boost_tokenizer" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				22261D125A514347825B13F4 /* Debug */,
-				5A24054DFB714790945EC5D7 /* Release */,
-				61437F30CAFD4779A2B5C5E3 /* MinSizeRel */,
-				8F98C1DFCF0B41308047B6E8 /* RelWithDebInfo */,
+				3ABCD033F626474194F03A72 /* Debug */,
+				09AE291AB52B4A9FB1DE4C9A /* Release */,
+				3B9E0D0C88EC464892159109 /* MinSizeRel */,
+				662C5D95E927438198BC67BF /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 5CAFBFD1BF6A4F7483E5DF38;
+			mainGroup = 793B0F008EEE43A6A5251BDF;
 			projectDirPath = "../../../boost-src/libs/tokenizer";
 			projectRoot = "";
 			targets = (
@@ -387,78 +387,25 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3DEAAB60749B465CB65C7C56 /* PBXTargetDependency */ = {
+		8627FE0F99124EA4BD60C261 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 05DA54E260267FCA40EE5EFF /* ZERO_CHECK */;
-			targetProxy = 72D6F8E5EA7940F3B644F4B2 /* PBXContainerItemProxy */;
+			targetProxy = 03AA2332A24849E8BD05A333 /* PBXContainerItemProxy */;
 		};
-		9ECBF95E99CE49A6BF50DBF7 /* PBXTargetDependency */ = {
+		92CDDC770A70467B8801989F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E64DF75D644A9717976D8387 /* ALL_BUILD */;
-			targetProxy = 9A200A9D8ACE4FD3A0E73602 /* PBXContainerItemProxy */;
+			targetProxy = A461345D95FC4D3B8F144FA8 /* PBXContainerItemProxy */;
 		};
-		A39E2D86182E46028CF3ABF1 /* PBXTargetDependency */ = {
+		A5769266C9DA445488FCA54A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E64DF75D644A9717976D8387 /* ALL_BUILD */;
-			targetProxy = 59BE14066B714BB08B42CAB4 /* PBXContainerItemProxy */;
+			targetProxy = 5EE74E80C9F243399B2B260B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3077C128E64F4236B6C4ADA6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
-			};
-			name = Debug;
-		};
-		325B2E0F36564A62B9558244 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		33BB8321EDE84EF6A195AF4D /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		44C9168BADC64A98A2BC74C0 /* RelWithDebInfo */ = {
+		0C388E8C99A04B4786C78E21 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -480,29 +427,7 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		4A52498B561B44B78998090B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		612C46BA1CCC440FAD8082C7 /* RelWithDebInfo */ = {
+		0D27FC95077B4EF7AFB6A12A /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -524,7 +449,7 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		6712A76B464B4B0FAD4EC7F7 /* RelWithDebInfo */ = {
+		2C5CB6026D944C0EA4CF9EE1 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -539,14 +464,14 @@ fi
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = RelWithDebInfo;
+			name = MinSizeRel;
 		};
-		737AB1ECC9394462B926B1E0 /* Debug */ = {
+		3916CE184F94498789E438EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -568,7 +493,29 @@ fi
 			};
 			name = Debug;
 		};
-		8FA05C0F2B1B4FCF8CE3E3DC /* RelWithDebInfo */ = {
+		39D7CE3D6DA1455C8EB9AF10 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		43B657462A7D486DB291A6A4 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -578,7 +525,29 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		970781DF3FBC48749515C5D1 /* Debug */ = {
+		5816BB1753E04A63907EE30F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6126F5325B5740B89C1F576A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -600,7 +569,61 @@ fi
 			};
 			name = Debug;
 		};
-		9EEFEDDB6640467583C0B34F /* MinSizeRel */ = {
+		652F78CFB63C42FFBE6AACD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
+			};
+			name = Release;
+		};
+		65E8EF229D674E18B2B585EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6A6D71A8801E47058971A616 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		72C9C8E3E1054C95AFFF9F67 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -610,29 +633,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		A042215B8172475B8989A691 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		A3301471241A4682BB0069B9 /* Release */ = {
+		77171324994D44F38065429C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -652,31 +653,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
-		};
-		AE282112A8FB40D0A8B35AEE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
 			name = Debug;
 		};
-		B301EBFF8BD7474DB3A04B71 /* MinSizeRel */ = {
+		94D09428CBAB47228CCEA48D /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -691,36 +670,23 @@ fi
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		B32D15E9FE6143C7B9EB0F3E /* Debug */ = {
+		D4BC2ABA55064E0D9EA48669 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				SDKROOT = "";
+				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
 			};
 			name = Debug;
 		};
-		E40383466ECB4D9C8688280D /* MinSizeRel */ = {
+		D671F806D7624006BEAD9B4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -740,19 +706,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
-		};
-		E5F636CC49F2434DAD2ADD6A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/pablito/SunShine/Sunshine/build_xcode/build;
-			};
 			name = Release;
 		};
-		EFEBF78D605F45088485A21F /* MinSizeRel */ = {
+		D7C97502C19C4D059C9E7E39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -767,14 +723,14 @@ fi
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Release;
 		};
-		F6DFB98CD8E64A73839F5F2D /* Release */ = {
+		E08382B6E9E3469F9042D2D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -795,61 +751,105 @@ fi
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
+		};
+		F0615C5959124C44A7577A76 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FA29CD196DF24C0F9094A9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		322C500B171B4E70A6AF6306 /* Build configuration list for PBXProject "boost_tokenizer" */ = {
+		2024822797C044AFB59F4961 /* Build configuration list for PBXProject "boost_tokenizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3077C128E64F4236B6C4ADA6 /* Debug */,
-				E5F636CC49F2434DAD2ADD6A /* Release */,
-				9EEFEDDB6640467583C0B34F /* MinSizeRel */,
-				8FA05C0F2B1B4FCF8CE3E3DC /* RelWithDebInfo */,
+				D4BC2ABA55064E0D9EA48669 /* Debug */,
+				652F78CFB63C42FFBE6AACD2 /* Release */,
+				72C9C8E3E1054C95AFFF9F67 /* MinSizeRel */,
+				43B657462A7D486DB291A6A4 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		5A49825309434897B410B1FD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		58C5E556132B4612A2DF34BF /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				970781DF3FBC48749515C5D1 /* Debug */,
-				A042215B8172475B8989A691 /* Release */,
-				B301EBFF8BD7474DB3A04B71 /* MinSizeRel */,
-				44C9168BADC64A98A2BC74C0 /* RelWithDebInfo */,
+				FA29CD196DF24C0F9094A9D9 /* Debug */,
+				E08382B6E9E3469F9042D2D4 /* Release */,
+				F0615C5959124C44A7577A76 /* MinSizeRel */,
+				0D27FC95077B4EF7AFB6A12A /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		96EB05D65820451E9CE48B57 /* Build configuration list for PBXAggregateTarget "package" */ = {
+		A9E28FBC72384EB4B562C2DC /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE282112A8FB40D0A8B35AEE /* Debug */,
-				F6DFB98CD8E64A73839F5F2D /* Release */,
-				33BB8321EDE84EF6A195AF4D /* MinSizeRel */,
-				612C46BA1CCC440FAD8082C7 /* RelWithDebInfo */,
+				77171324994D44F38065429C /* Debug */,
+				65E8EF229D674E18B2B585EF /* Release */,
+				94D09428CBAB47228CCEA48D /* MinSizeRel */,
+				5816BB1753E04A63907EE30F /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B11F8F51587C403CA42EE186 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		CF1500E4D7214EEE900D093F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B32D15E9FE6143C7B9EB0F3E /* Debug */,
-				A3301471241A4682BB0069B9 /* Release */,
-				EFEBF78D605F45088485A21F /* MinSizeRel */,
-				6712A76B464B4B0FAD4EC7F7 /* RelWithDebInfo */,
+				3916CE184F94498789E438EF /* Debug */,
+				D671F806D7624006BEAD9B4C /* Release */,
+				2C5CB6026D944C0EA4CF9EE1 /* MinSizeRel */,
+				39D7CE3D6DA1455C8EB9AF10 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		DD61971316B142D387ECEFB2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		EC9A54827D674CEAA440C9C7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				737AB1ECC9394462B926B1E0 /* Debug */,
-				4A52498B561B44B78998090B /* Release */,
-				E40383466ECB4D9C8688280D /* MinSizeRel */,
-				325B2E0F36564A62B9558244 /* RelWithDebInfo */,
+				6126F5325B5740B89C1F576A /* Debug */,
+				D7C97502C19C4D059C9E7E39 /* Release */,
+				6A6D71A8801E47058971A616 /* MinSizeRel */,
+				0C388E8C99A04B4786C78E21 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
